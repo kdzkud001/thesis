@@ -1,0 +1,139 @@
+\begin{thebibliography}{10}
+
+\bibitem{randomnerd2021ultrasonic}
+Random~Nerd Tutorials.
+\newblock Complete guide for ultrasonic sensor hc-sr04 with arduino.
+\newblock
+  \url{https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/},
+  2021.
+\newblock Accessed: 2024-09-21.
+
+\bibitem{Mobileye2023}
+{Mobileye}.
+\newblock A brief history of autonomous vehicles – from renaissance to
+  reality.
+\newblock {\em Mobileye Blog}, 2023.
+\newblock Accessed: 2024-08-18.
+
+\bibitem{RC_Crush2023}
+{RC Crush}.
+\newblock A complete rc car history.
+\newblock {\em RC Crush}, Apr 2023.
+\newblock Accessed: 2024-08-18.
+
+\bibitem{GoogleBooks2017}
+Saso Blazic Igor~Skrjanc Gregor~Klancar, Andrej~Zdesar.
+\newblock {\em Wheeled Mobile Robotics}.
+\newblock Google Books, 2017.
+\newblock Accessed: 2024-08-18.
+
+\bibitem{Samuels2023}
+S.~Samuels.
+\newblock What is the fifth industrial revolution and are we in it?
+\newblock {\em Skills Portal}, 2023.
+\newblock Accessed: 2024-09-12.
+
+\bibitem{Dalle2021}
+M.~Dalle~Mura and G.~Dini.
+\newblock Augmented reality in assembly systems: State of the art and future
+  perspectives.
+\newblock In Svetan Ratchev, editor, {\em Smart Technologies for Precision
+  Assembly}, pages 3--22, Cham, 2021. Springer International Publishing.
+
+\bibitem{Hentout2019}
+A.~Hentout, M.~Aouache, A.~Maoudj, and I.~Akli.
+\newblock Human--robot interaction in industrial collaborative robotics: a
+  literature review of the decade 2008–2017.
+\newblock {\em Advanced Robotics}, 33(15-16):764--799, 2019.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Suzuki2022}
+R.~Suzuki, A.~Karim, T.~Xia, H.~Hedayati, and N.~Marquardt.
+\newblock Augmented reality and robotics: A survey and taxonomy for ar-enhanced
+  human-robot interaction and robotic interfaces.
+\newblock {\em arXiv preprint arXiv:2203.03254}, 2022.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Green2019}
+S.~A. Green, X.~Chen, and M.~Billinghurst.
+\newblock Collaborating with a mobile robot: An augmented reality multimodal
+  interface.
+\newblock {\em Robotics and Autonomous Systems}, 122:103–110, 2019.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Michalos2022}
+G.~Michalos et~al.
+\newblock Augmented reality applications for supporting human-robot interactive
+  cooperation.
+\newblock {\em Procedia CIRP}, 100:79–84, 2022.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Coovert2014}
+Michael~D. Coovert, Tiffany Lee, Ivan Shindev, and Yu~Sun.
+\newblock Spatial augmented reality as a method for a mobile robot to
+  communicate intended movement.
+\newblock {\em Computers in Human Behavior}, 34:241--248, 2014.
+
+\bibitem{Daponte2020}
+P.~Daponte, L.~De Vito, and F.~Picariello.
+\newblock State of the art and future developments of the augmented reality for
+  measurement applications.
+\newblock {\em IEEE Transactions on Instrumentation and Measurement},
+  69(2):455--466, 2020.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Filus2023}
+K.~Filus and P.~Klakowicz.
+\newblock Real-time testing of vision-based systems for agvs with aruco
+  markers.
+\newblock {\em Journal of Intelligent \& Robotic Systems}, 105(1):17--32, 2023.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Husar2022}
+J.~Husar and K.~Wrona.
+\newblock Possibilities of using augmented reality in warehouse management: A
+  study.
+\newblock {\em International Journal of Production Research},
+  60(14):4128--4140, 2022.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Fu2023}
+J.~Fu, A.~Rota, S.~Li, J.~Zhao, Q.~Liu, E.~Iovene, G.~Ferrigno, and E.~De Momi.
+\newblock Recent advancements in augmented reality for robotic applications: A
+  survey.
+\newblock {\em Actuators}, 12(8):323, 2023.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{Makhataeva2020}
+Z.~Makhataeva and H.~A. Varol.
+\newblock Augmented reality for robotics: A review.
+\newblock {\em Robotics}, 9(2):21, 2020.
+\newblock Accessed: 2024-09-16.
+
+\bibitem{maupin2023ultrasonic}
+N.~Maupin and N.~Maupin.
+\newblock How do ultrasonic sensors work?
+\newblock
+  \url{https://howdowork.com/technology/computers-electronics/ultrasonic-sensors-working/#:~:text=How%20Do%20Ultrasonic%20Sensors%20Work%20Ultrasonic%20sensors%20work,they%20are%20partially%20reflected%20back%20to%20the%20sensor.},
+  September 2023.
+\newblock Accessed: 2024-09-21.
+
+\bibitem{delfa2015}
+S.~Monteleone J.F. De Paz J.~Bajo {G.C. La Delfa}, V.~Catania.
+\newblock Computer vision based indoor navigation: A visual markers evaluation.
+\newblock In {\em Ambient Intelligence - Software and Applications}, pages
+  165--172. Springer, 2015.
+
+\bibitem{jacobsen2018}
+D.~Divani I.~Jacobsen, F.~Supty.
+\newblock Remote-controlled camera robot.
+\newblock In {\em BCIT Capstone Project Report}. BCIT, 2018.
+
+\bibitem{vanitha2016}
+R.~Selvarasu M.~Vanitha, M.~Selvalakshmi.
+\newblock Monitoring and controlling of mobile robot via internet through
+  raspberry pi board.
+\newblock In {\em 2016 Second International Conference on Science Technology
+  Engineering and Management (ICONSTEM)}, pages 462--463. IEEE, 2016.
+
+\end{thebibliography}

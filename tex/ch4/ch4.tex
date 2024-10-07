@@ -1,0 +1,29 @@
+\chapter{\label{ch:ch4} Design ad Implementation}
+
+This is the design chapter intro and explaining structure etc.
+
+\section{\label{sec:ch4_firstsec}System Design}
+
+This section presents the system design with nice illustrations.
+\section{\label{sec:sys_architecture} System Architecture}
+
+The project is composed of several key components, below is a high level overview of all the components that are needed in order execute the project properly.
+
+\begin{table}[ht]
+\centering
+\caption{System Architecture Components}
+\label{tab:system_architecture}
+\begin{tabular}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Component} & \textbf{Description} \\ \hline
+Microcontroller/Processor & Manages computer vision algorithms and interfaces with hardware. Responsible for overall system control and data processing. \\ \hline
+Web Camera & Provides real-time video feed for remote monitoring and vision tasks. Captures high-quality images for processing. \\ \hline
+Motor and Drive System & Four-wheel drive system for robot mobility. Includes motors and a motor controller for precise movement control.\\ \hline
+Fiducial Markers & Visual markers (e.g., ArUco or AprilTag) placed in the environment to assist with localization and navigation.\\ \hline
+Web-based Control Interface & Allows remote control of the robot’s movements and camera functions, with video streaming capabilities. \\ \hline
+Power Supply & Provides electrical power to all components of the system. Needs to support extended operation and peak power demands. \\ \hline
+Chassis & Physical structure of the robot that houses and protects all components. Designed for durability and optimal component placement.  \\ \hline
+Sensors & Additional sensors for environmental awareness (e.g., ultrasonic sensors, IMU, GPS).\\  \hline
+Communication Module & Enables wireless communication between the robot and the control interface, supporting long-range and reliable data transmission. \\ \hline
+\end{tabular}
+\end{table}

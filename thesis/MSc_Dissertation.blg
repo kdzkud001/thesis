@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MSc_Dissertation.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Illegal, another \bibstyle command---line 14 of file MSc_Dissertation.aux
+ : \bibstyle
+ :          {acm}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: bibliography.bib
+Warning--empty journal in websockets
+Warning--empty journal in rhydo2024
+You've used 30 entries,
+            1791 wiz_defined-function locations,
+            639 strings with 8454 characters,
+and the built_in function-call counts, 6362 in all, are:
+= -- 570
+> -- 281
+< -- 3
++ -- 107
+- -- 77
+* -- 382
+:= -- 1062
+add.period$ -- 115
+call.type$ -- 30
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 287
+empty$ -- 618
+format.name$ -- 77
+if$ -- 1420
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 29
+newline$ -- 174
+num.names$ -- 32
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 121
+stack$ -- 0
+substring$ -- 309
+swap$ -- 54
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 53
+width$ -- 32
+write$ -- 362
+(There was 1 error message)
