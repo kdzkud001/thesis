@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  7 OCT 2024 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  8 OCT 2024 02:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,7 +1344,7 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<uctlogomain.png, id=230, 1304.875pt x 1331.97626pt>
+<uctlogomain.png, id=254, 1304.875pt x 1331.97626pt>
 File: uctlogomain.png Graphic file (type png)
 <use uctlogomain.png>
 Package pdftex.def Info: uctlogomain.png  used on input line 143.
@@ -1418,7 +1418,7 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 ] (ch1/ch1.tex
 Chapter 1.
-<ch1/figs/Vinci_car.jpg, id=373, 1610.015pt x 1074.0125pt>
+<ch1/figs/Vinci_car.jpg, id=406, 1610.015pt x 1074.0125pt>
 File: ch1/figs/Vinci_car.jpg Graphic file (type jpg)
 <use ch1/figs/Vinci_car.jpg>
 Package pdftex.def Info: ch1/figs/Vinci_car.jpg  used on input line 11.
@@ -1452,7 +1452,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [7]
 Chapter 2.
-<ch2/figs/lit_overview.png, id=421, 1431.09656pt x 309.40594pt>
+<ch2/figs/lit_overview.png, id=454, 1431.09656pt x 309.40594pt>
 File: ch2/figs/lit_overview.png Graphic file (type png)
 <use ch2/figs/lit_overview.png>
 Package pdftex.def Info: ch2/figs/lit_overview.png  used on input line 7.
@@ -1462,19 +1462,16 @@ Overfull \hbox (25.88567pt too wide) in paragraph at lines 12--12
 |[]\OT1/ptm/b/sc/17.28 Introduction to Human-Robot In-ter-ac-tion (HRI)
  []
 
-<ch2/figs/image_overlay.png, id=424, 853.1875pt x 501.875pt>
+<ch2/figs/image_overlay.png, id=457, 853.1875pt x 501.875pt>
 File: ch2/figs/image_overlay.png Graphic file (type png)
 <use ch2/figs/image_overlay.png>
 Package pdftex.def Info: ch2/figs/image_overlay.png  used on input line 20.
-(pdftex.def)             Requested size: 227.62206pt x 133.89221pt.
+(pdftex.def)             Requested size: 364.19667pt x 214.2398pt.
 
 
 [8
 
  <./ch2/figs/lit_overview.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [9 <./ch2/figs/image_overlay.png (PNG copy)>]
 Overfull \hbox (1.11078pt too wide) in paragraph at lines 47--48
@@ -1488,12 +1485,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [10]
-<ch2/figs/robot_nav2.png, id=457, 441.14813pt x 421.575pt>
+<ch2/figs/robot_nav2.png, id=488, 441.14813pt x 421.575pt>
 File: ch2/figs/robot_nav2.png Graphic file (type png)
 <use ch2/figs/robot_nav2.png>
 Package pdftex.def Info: ch2/figs/robot_nav2.png  used on input line 59.
 (pdftex.def)             Requested size: 182.09486pt x 174.01761pt.
-<ch2/figs/robot_nav_1.png, id=460, 243.91125pt x 282.30469pt>
+<ch2/figs/robot_nav_1.png, id=491, 243.91125pt x 282.30469pt>
 File: ch2/figs/robot_nav_1.png Graphic file (type png)
 <use ch2/figs/robot_nav_1.png>
 Package pdftex.def Info: ch2/figs/robot_nav_1.png  used on input line 66.
@@ -1501,55 +1498,44 @@ Package pdftex.def Info: ch2/figs/robot_nav_1.png  used on input line 66.
 
 
 [11 <./ch2/figs/robot_nav2.png> <./ch2/figs/robot_nav_1.png>]
-<ch1/figs/ARToolkit.jpg, id=475, 480.79625pt x 481.8pt>
+
+[12]
+<ch1/figs/ARToolkit.jpg, id=512, 480.79625pt x 481.8pt>
 File: ch1/figs/ARToolkit.jpg Graphic file (type jpg)
 <use ch1/figs/ARToolkit.jpg>
 Package pdftex.def Info: ch1/figs/ARToolkit.jpg  used on input line 108.
 (pdftex.def)             Requested size: 113.81102pt x 114.04639pt.
-<ch1/figs/AprilTag.png, id=476, 274.02374pt x 272.51813pt>
+<ch1/figs/AprilTag.png, id=513, 274.02374pt x 272.51813pt>
 File: ch1/figs/AprilTag.png Graphic file (type png)
 <use ch1/figs/AprilTag.png>
 Package pdftex.def Info: ch1/figs/AprilTag.png  used on input line 115.
 (pdftex.def)             Requested size: 113.81102pt x 113.18855pt.
-<ch1/figs/ArUco.png, id=477, 282.30469pt x 282.30469pt>
+<ch1/figs/ArUco.png, id=514, 282.30469pt x 282.30469pt>
 File: ch1/figs/ArUco.png Graphic file (type png)
 <use ch1/figs/ArUco.png>
 Package pdftex.def Info: ch1/figs/ArUco.png  used on input line 122.
 (pdftex.def)             Requested size: 113.81102pt x 113.81154pt.
 
 
-[12]
-Overfull \hbox (0.86179pt too wide) in paragraph at lines 149--149
-[]|\OT1/ptm/b/n/12 Robustness| 
- []
-
-
+[13 <./ch1/figs/ARToolkit.jpg (PNG copy)> <./ch1/figs/AprilTag.png> <./ch1/figs
+/ArUco.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
 []|\OT1/ptm/b/n/12 Detection
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\OT1/ptm/b/n/12 Computational Ef-fi-
+[]|\OT1/ptm/b/n/12 Computational
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 5802) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[13 <./ch1/figs/ARToolkit.jpg (PNG copy)> <./ch1/figs/AprilTag.png> <./ch1/figs
-/ArUco.png>]
 
 [14]
 
 [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1562,7 +1548,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [18]
-<ch2/figs/ultrasonic_sensor.png, id=543, 752.8125pt x 454.69875pt>
+<ch2/figs/ultrasonic_sensor.png, id=576, 752.8125pt x 454.69875pt>
 File: ch2/figs/ultrasonic_sensor.png Graphic file (type png)
 <use ch2/figs/ultrasonic_sensor.png>
 Package pdftex.def Info: ch2/figs/ultrasonic_sensor.png  used on input line 236
@@ -1581,12 +1567,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
 
 
 [19 <./ch2/figs/ultrasonic_sensor.png (PNG copy)>]
-Underfull \vbox (badness 3271) has occurred while \output is active []
-
-
 
 [20]
-<ch2/figs/lidar_graphic.png, id=562, 1352.05125pt x 703.12688pt>
+<ch2/figs/lidar_graphic.png, id=595, 1352.05125pt x 703.12688pt>
 File: ch2/figs/lidar_graphic.png Graphic file (type png)
 <use ch2/figs/lidar_graphic.png>
 Package pdftex.def Info: ch2/figs/lidar_graphic.png  used on input line 299.
@@ -1602,17 +1585,87 @@ Chapter 3.
 [23
 
 ]
-Underfull \hbox (badness 5563) in paragraph at lines 35--35
-\OT1/ptm/m/n/12 de-tec-tion for dy-namic in-
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\OT1/ptm/b/n/12 Functions
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 37--37
-[]|\OT1/ptm/m/n/12 Test AR-based vi-sual feed-
+Overfull \hbox (0.63928pt too wide) in paragraph at lines 31--31
+[]|\OT1/ptm/b/n/12 Requirements
  []
 
 
-Overfull \hbox (9.45267pt too wide) in paragraph at lines 31--41
+Underfull \hbox (badness 1400) in paragraph at lines 32--32
+\OT1/ptm/m/n/12 hav-ior in AR-based
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 32--32
+\OT1/ptm/m/n/12 within de-fined zones (e.g.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/ptm/m/n/12 Robot rec-og-nizes ArUco
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 33--33
+\OT1/ptm/m/n/12 mark-ers in real-time and
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 33--33
+\OT1/ptm/m/n/12 trig-gers cor-re-spond-ing task
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/ptm/m/n/12 feed-back for real-
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 34--34
+[]|\OT1/ptm/m/n/12 The user re-ceives ac-cu-rate
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 sys-tem us-ing vi-sual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/ptm/m/n/12 The robot suc-cess-fully
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 avoids pre-de-fined ob-sta-cles
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 marked by ArUco codes
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 within 20 cm, halt-ing or
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 36--36
+[]|\OT1/ptm/m/n/12 Test wheel slip de-
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 36--36
+[]|\OT1/ptm/m/n/12 The robot de-tects slip on
+ []
+
+
+Overfull \hbox (5.49438pt too wide) in paragraph at lines 29--38
  [][] 
  []
 
@@ -1620,7 +1673,7 @@ Overfull \hbox (9.45267pt too wide) in paragraph at lines 31--41
 
 [24]
 Chapter 4.
-<ch3/figs/diagram.png, id=584, 832.10875pt x 497.86pt>
+<ch3/figs/diagram.png, id=617, 832.10875pt x 497.86pt>
 File: ch3/figs/diagram.png Graphic file (type png)
 <use ch3/figs/diagram.png>
 Package pdftex.def Info: ch3/figs/diagram.png  used on input line 9.
@@ -1629,32 +1682,47 @@ Package pdftex.def Info: ch3/figs/diagram.png  used on input line 9.
 
 [25
 
- <./ch3/figs/diagram.png (PNG copy)>]) (ch4/ch4.tex
+ <./ch3/figs/diagram.png (PNG copy)>]
 
 [26]
-Chapter 5.
-) (ch5/ch5.tex
 
-[27
-
-]
+[27]) (ch4/ch4.tex
 
 [28]
-Chapter 6.
-) (ch6/ch6.tex
+Chapter 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [29
 
 ]
+<ch4/figs/robot_car.png, id=651, 922.19531pt x 423.83344pt>
+File: ch4/figs/robot_car.png Graphic file (type png)
+<use ch4/figs/robot_car.png>
+Package pdftex.def Info: ch4/figs/robot_car.png  used on input line 17.
+(pdftex.def)             Requested size: 455.24411pt x 209.22585pt.
+) (ch5/ch5.tex
+
+[30 <./ch4/figs/robot_car.png>]
+
+[31]
+Chapter 6.
+) (ch6/ch6.tex
+
+[32
+
+]
 Chapter 7.
-<ch6/figs/picture.jpg, id=614, 552.0625pt x 310.15875pt>
+<ch6/figs/picture.jpg, id=667, 552.0625pt x 310.15875pt>
 File: ch6/figs/picture.jpg Graphic file (type jpg)
 <use ch6/figs/picture.jpg>
 Package pdftex.def Info: ch6/figs/picture.jpg  used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 255.77527pt.
 ) (MSc_Dissertation.bbl
 
-[30
+[33
 
  <./ch6/figs/picture.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
@@ -1670,7 +1738,7 @@ utorials . com /
 
 
 
-[31
+[34
 
 ]
 Underfull \hbox (badness 2547) in paragraph at lines 157--163
@@ -1697,13 +1765,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--163
 
 
 
-[32]) (Appendix/appendixA.tex
+[35]) (Appendix/appendixA.tex
 
-[33]
+[36]
 Appendix A.
 )
 
-[34
+[37
 
 ] (MSc_Dissertation.aux)
  ***********
@@ -1711,13 +1779,13 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `MSc_Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 5292A68043AD70D79716D41E84FD4956;10935.
+(rerunfilecheck)             Checksum: 549B590A7D17818F8EB5BF5FDBEFAD78;11981.
  ) 
 Here is how much of TeX's memory you used:
- 40705 strings out of 473898
- 889064 string characters out of 5726479
- 1465835 words of memory out of 5000000
- 62612 multiletter control sequences out of 15000+600000
+ 40736 strings out of 473898
+ 889626 string characters out of 5726479
+ 1466834 words of memory out of 5000000
+ 62633 multiletter control sequences out of 15000+600000
  597990 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,12n,107p,3298b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1729,9 +1797,9 @@ tmb8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmbi8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on MSc_Dissertation.pdf (44 pages, 6225496 bytes).
+Output written on MSc_Dissertation.pdf (47 pages, 6423503 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 

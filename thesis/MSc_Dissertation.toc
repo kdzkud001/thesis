@@ -19,15 +19,15 @@
 \contentsline {subsection}{\numberline {2.1.1}Virtual Reality in Human-Robot Interaction: A Comparison with Augmented Reality}{9}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Augmented Reality as a Tool in HRI}{10}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Mobile Robotics and AR Integration}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}AR as a Communication Tool in Mobile Robotics}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}AR as a Communication Tool in Mobile Robotics}{11}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Multimodal AR Interfaces for Human-Robot Interaction}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Applications of AR in Mobile Robotics}{11}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Applications of AR in Mobile Robotics}{12}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Challenges and Future Directions}{12}{subsection.2.2.4}%
 \contentsline {section}{\numberline {2.3}Fiducial Marker Systems in HRI}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Fiducial Marker Systems Overview}{13}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Choosing the Best Marker System for the Project}{14}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Visual Interaction in AR-Enhanced HRI}{14}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Applications of Visual Interaction}{14}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Applications of Visual Interaction}{15}{subsubsection.2.3.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.3.2}Visual Feedback and Real-Time Interaction}{15}{subsubsection.2.3.3.2}%
 \contentsline {section}{\numberline {2.4}AR's Role in Improving User Engagement}{16}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Enhancing User Engagement through Real-Time Feedback and Visualization}{16}{subsection.2.4.1}%
@@ -35,22 +35,28 @@
 \contentsline {section}{\numberline {2.5}Web-Based Control Interfaces}{17}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Webserver Framework Options}{17}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Security and User Experience}{18}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Sensor Technologies in Human-Robot Interaction}{18}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Sensor Technologies in Human-Robot Interaction}{19}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Ultrasonic Sensors}{19}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Infrared Sensors}{20}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}The Dagu Infrared Compound Eye}{20}{subsubsection.2.6.2.1}%
 \contentsline {subsection}{\numberline {2.6.3}LiDAR Sensors}{21}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Conclusion}{22}{section.2.7}%
 \contentsline {chapter}{\numberline {3} Requirements and Specifications}{23}{chapter.3}%
 \contentsline {chapter}{\numberline {4} Methodology}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1} Overview}{25}{section.4.1}%
-\contentsline {chapter}{\numberline {5} Design ad Implementation}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}System Design}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2} System Architecture}{27}{section.5.2}%
-\contentsline {chapter}{\numberline {6} Results and Discussion}{29}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Subsection Name}{29}{section.6.1}%
-\contentsline {chapter}{\numberline {7} Conclusions and Further Work}{30}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{30}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Recommendations For Further Work}{30}{section.7.2}%
-\contentsline {chapter}{\numberline {A}ADC/DAC core}{34}{appendix.A}%
-\contentsline {section}{\numberline {A.1}A useful sub appendix}{34}{section.A.1}%
+\contentsline {section}{\numberline {4.2} Subsystems Overview}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1} Camera Module}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2} Raspberry Pi}{26}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3} Motor Driver and Drive System}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4} Web-Based Control Interface}{27}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5} Fiducial Marker Detection}{28}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3} Interaction and Dependencies}{28}{section.4.3}%
+\contentsline {chapter}{\numberline {5} Design ad Implementation}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}System Design}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2} System Architecture}{30}{section.5.2}%
+\contentsline {chapter}{\numberline {6} Results and Discussion}{32}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Subsection Name}{32}{section.6.1}%
+\contentsline {chapter}{\numberline {7} Conclusions and Further Work}{33}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{33}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Recommendations For Further Work}{33}{section.7.2}%
+\contentsline {chapter}{\numberline {A}ADC/DAC core}{37}{appendix.A}%
+\contentsline {section}{\numberline {A.1}A useful sub appendix}{37}{section.A.1}%

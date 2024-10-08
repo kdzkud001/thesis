@@ -17,7 +17,7 @@ According to \cite{Hentout2019}, HRI evolved from isolated robot systems in manu
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{ch2/figs/image_overlay.png}
+    \includegraphics[width=0.8\textwidth]{ch2/figs/image_overlay.png}
     \caption{Screen Display of work environment with AR additions}
     \label{fig:AR_work_overlay}
 \end{figure}
@@ -137,12 +137,12 @@ In AR-enhanced HRI, fiducial marker systems are essential for real-time contextu
 \centering
 \caption{Comparison of Fiducial Marker Systems}
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{4cm}|p{4cm}|}
+\begin{tabular}{|p{3.1cm}|p{2.1cm}|p{2.1cm}|p{3.2cm}|p{4.5cm}|}
 \hline
 \textbf{Marker System} & \textbf{Robustness} & \textbf{Detection Accuracy} & \textbf{Computational Efficiency} & \textbf{Applications} \\
 \hline
-ARToolKit     & Moderate    & Good      & Moderate      & Early AR applications \\
-AprilTags     & High        & Excellent & Moderate-High & Robotics \\
+ARToolKit     & Moderate    & Good      & Moderate      & Early AR applications \\\hline
+AprilTags     & High        & Excellent & Moderate-High & Robotics \\\hline
 ArUco Markers & High        & Good      & High          & Real-time robot navigation \\
 \hline
 \end{tabular}
@@ -270,7 +270,7 @@ Infrared (IR) sensors are commonly used in mobile robotics for tasks such as pro
 
 While standard IR sensors, such as the basic proximity IR sensors, serve well in obstacle avoidance and object detection, they have limitations in terms of range, field of view, and accuracy. These standard sensors perform well in specific lighting conditions but struggle in environments with significant ambient light interference \cite{rhydo2024}.
 
-\subsubsection{The Dagu Infrared Compound Eye} 
+
 The \textbf{Dagu Infrared Compound Eye} shares basic functionality with standard IR sensors but offers significant enhancements. Unlike single-point IR sensors, the Dagu sensor features a compound array of multiple infrared detectors, allowing for a much wider field of view and multi-directional sensing. This enables the robot to detect objects from multiple angles, enhancing spatial awareness and enabling more complex navigation and object tracking tasks \cite{rhydo2024}.
 
 Integrating the \textbf{Dagu Infrared Compound Eye} into this project would extend the robot's capabilities by improving its obstacle detection, particularly in dynamic and complex environments. The sensor’s wide field of view, combined with real-time AR feedback, could provide users with a more intuitive control system and greater situational awareness, thereby improving human-robot interaction (HRI). Moreover, the sensor could aid in tasks requiring precise spatial awareness, such as navigating around obstacles or detecting specific objects \cite{benet2002infrared}.
