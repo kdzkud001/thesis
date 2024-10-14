@@ -52,11 +52,18 @@
 \contentsline {section}{\numberline {4.3} Interaction and Dependencies}{28}{section.4.3}%
 \contentsline {chapter}{\numberline {5} Design ad Implementation}{29}{chapter.5}%
 \contentsline {section}{\numberline {5.1}System Design}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2} System Architecture}{30}{section.5.2}%
-\contentsline {chapter}{\numberline {6} Results and Discussion}{32}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Subsection Name}{32}{section.6.1}%
-\contentsline {chapter}{\numberline {7} Conclusions and Further Work}{33}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{33}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Recommendations For Further Work}{33}{section.7.2}%
-\contentsline {chapter}{\numberline {A}ADC/DAC core}{37}{appendix.A}%
-\contentsline {section}{\numberline {A.1}A useful sub appendix}{37}{section.A.1}%
+\contentsline {section}{\numberline {5.2} Hardware System Architecture}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Microcontroller Selection}{30}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Camera Module}{31}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motor and Drive System}{32}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Power Supply}{34}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Raspberry Pi Power Supply}{34}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}H-Bridge and Motor Power Supply}{35}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5} Software System Architecture}{35}{section.5.5}%
+\contentsline {chapter}{\numberline {6} Results and Discussion}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Subsection Name}{37}{section.6.1}%
+\contentsline {chapter}{\numberline {7} Conclusions and Further Work}{38}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{38}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Recommendations For Further Work}{38}{section.7.2}%
+\contentsline {chapter}{\numberline {A}ADC/DAC core}{42}{appendix.A}%
+\contentsline {section}{\numberline {A.1}A useful sub appendix}{42}{section.A.1}%
