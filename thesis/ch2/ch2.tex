@@ -1,13 +1,19 @@
 \chapter{\label{ch:lit_review} Literature Review}
 
-This literature review provides a comprehensive exploration of the integration of Augmented Reality (AR) with mobile robotics, focusing on its applications in Human-Robot Interaction (HRI). The review is structured to cover several key areas that are crucial to the development of an AR framework for a 4WD robotic car. Here's an overview of what readers can expect to find in this literature review:
+This literature review provides a comprehensive exploration of the integration of Augmented Reality (AR) with mobile robotics, focusing on its applications in Human-Robot Interaction (HRI). The review is structured to cover several key areas that are crucial to the development of an AR framework for a 4WD robotic car. 
+
+The field of AR-Enhanced Mobile Robotics is a rapidly evolving interdisciplinary domain that combines elements from robotics, computer vision, human-computer interaction, and sensor technologies. This review aims to synthesize current knowledge and identify gaps in the existing literature, providing a solid foundation for the present research project.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{ch2/figs/lit_overview.png}
-    \caption{Overview of the structure of the literature review}
+    \caption{Overview of the structure of the literature review }
     \label{fig:Lit_overview}
 \end{figure}
+
+Figure \ref{fig:Lit_overview} illustrates the structure and main topics covered in this literature review. The diagram presents a hierarchical breakdown of the key areas that constitute AR-Enhanced Mobile Robotics Each of these main areas is further divided into subtopics, allowing for a detailed examination of specific technologies, methodologies, and their applications in AR-enhanced mobile robotics.
+
+Throughout this review, I will critically analyze key research papers, industry reports, and state-of-the-art implementations I will discuss current challenges, emerging trends, and potential future directions in AR-enhanced mobile robotics. By the end of this literature review, readers will have a thorough understanding of the current state of AR in mobile robotics, the challenges faced in implementing such systems, and the potential benefits they offer in enhancing human-robot interaction and overall system functionality.
 
 \section{Introduction to Human-Robot Interaction (HRI) and Augmented Reality (AR)}
 
@@ -17,8 +23,8 @@ According to \cite{Hentout2019}, HRI evolved from isolated robot systems in manu
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{ch2/figs/image_overlay.png}
-    \caption{Screen Display of work environment with AR additions}
+    \includegraphics[width=0.85\textwidth]{ch2/figs/overlay.png}
+    \caption{Screen Display of work environment with AR additions {\cite{ResearchGateAR2024}}}
     \label{fig:AR_work_overlay}
 \end{figure}
 
@@ -38,7 +44,7 @@ While both technologies are beneficial, this literature review will primarily fo
 
 AR enhances communication between humans and robots by offering real-time visualizations and feedback, thus improving situational awareness and reducing errors in task execution. Suzuki et al. \cite{Suzuki2022} propose a taxonomy of AR-enhanced HRI, highlighting the key areas where AR plays a role, such as task guidance, real-time interaction, and environment mapping. In particular, AR’s ability to provide visual feedback significantly enhances the user experience by making robot operations more transparent and reducing cognitive load.
 
-Moreover, AR facilitates dynamic task interaction by enabling users to provide real-time instructions to the robot. This is particularly beneficial in industrial applications where task conditions change frequently. AR not only improves task accuracy but also contributes to a more efficient workflow, as robots can quickly adjust their behavior based on user commands and visual markers such as ArUco codes \cite{Suzuki2022}.
+Moreover, AR facilitates dynamic task interaction by enabling users to provide real-time instructions to the robot. This is particularly beneficial in industrial applications where task conditions change frequently. AR not only improves task accuracy but also contributes to a more efficient workflow, as robots can quickly adjust their behavior based on user commands and visual markers. \cite{Suzuki2022}.
 
 AR's applications in HRI span various industries, from manufacturing to healthcare. In manufacturing, AR has been utilized to guide robot operations through real-time visual overlays, improving precision and safety in tasks that require close human-robot collaboration \cite{Hentout2019}. Similarly, in healthcare, AR assists medical robots in performing delicate procedures by providing real-time feedback and guidance, enhancing both safety and operational efficiency \cite{Suzuki2022}. 
 
@@ -224,9 +230,9 @@ While security is a crucial aspect of any robotic system, especially those contr
 
 In a real-world application, however, it would be critical to implement robust security measures. These would typically include encryption protocols like TLS (Transport Layer Security) to protect the integrity and confidentiality of data exchanged between the robot and the user interface. Additionally, strong authentication mechanisms would be necessary to prevent unauthorized access to the robot's controls.
 
-\section{Sensor Technologies in Human-Robot Interaction}
+\section{Sensor Technologies}
 
-When discussing the AR technology, it's difficult to do so without making mention of sensors, sensors allow machines to interact with their environments. Sensors are to machines what eyes and ears are to humans. This section serves as a review for the applicable sensors relevant to this project which is designing a AR framework for a 4WD robotic car.
+{insert introductory paragraph here}
 
 \subsection{Ultrasonic Sensors} 
 Ultrasonic sensors are a common choice in mobile robotics due to their effectiveness in obstacle avoidance and distance measurement. These sensors emit ultrasonic waves and measure the time it takes for the waves to reflect back from an object, allowing the robot to calculate the distance from obstacles \cite{maupin2023ultrasonic}. This capability provides spatial awareness that is critical for safe navigation. Below is a basic diagram showcasing the operation of an HC-SR04 Infrared Sensor.
@@ -256,43 +262,12 @@ Parallax PING))) & 3-300 & 5 & ±0.5 cm & 20 degrees & 22 x 46 x 16 \\ \hline
 
 Ultrasonic sensors are advantageous because of their simplicity, affordability, and ease of integration. For this project, they could provide an excellent mechanism for detecting nearby obstacles, which is essential for navigation in dynamic environments. Some key properties of ultrasonic sensors include:
 
-\begin{itemize}
-    \item \textbf{Wide Range of Detection}: As seen in the table, ultrasonic sensors like the HC-SR04 and Maxbotix MB1000 can detect objects at distances ranging from a few centimeters to several meters. This is beneficial for both short-range and long-range obstacle avoidance.
-    \item \textbf{Accuracy and Precision}: Depending on the model, ultrasonic sensors offer good accuracy for distance measurements. For example, the Maxbotix MB1000 boasts an accuracy of ±1\%, helping ensure that the robot reacts promptly and effectively to its surroundings.
-    \item \textbf{Field of View (FoV)}: The field of view differs between sensors, affecting the robot's perception. A larger FoV allows the robot to detect obstacles from a wider angle, but may result in less precise focus on individual objects.
-\end{itemize}
-
 Integrating ultrasonic sensors with augmented reality (AR) offers the possibility of visualizing sensor data in real time. For example, AR can highlight areas where the robot detects obstacles, providing the operator with enhanced spatial awareness, preventing collisions, and improving task efficiency. Additionally, real-time data streaming through a visual interface allows for immediate adjustments to the robot's behavior based on sensor readings.
 
-\subsection{Infrared Sensors} 
 
-Infrared (IR) sensors are commonly used in mobile robotics for tasks such as proximity detection, line-following, and object avoidance. These sensors emit infrared light and detect the reflection from nearby objects, making them effective for short-range detection in controlled environments \cite{benet2002infrared}.
+\subsection{LiDAR Sensors} 
 
-While standard IR sensors, such as the basic proximity IR sensors, serve well in obstacle avoidance and object detection, they have limitations in terms of range, field of view, and accuracy. These standard sensors perform well in specific lighting conditions but struggle in environments with significant ambient light interference \cite{rhydo2024}.
-
-
-The \textbf{Dagu Infrared Compound Eye} shares basic functionality with standard IR sensors but offers significant enhancements. Unlike single-point IR sensors, the Dagu sensor features a compound array of multiple infrared detectors, allowing for a much wider field of view and multi-directional sensing. This enables the robot to detect objects from multiple angles, enhancing spatial awareness and enabling more complex navigation and object tracking tasks \cite{rhydo2024}.
-
-Integrating the \textbf{Dagu Infrared Compound Eye} into this project would extend the robot's capabilities by improving its obstacle detection, particularly in dynamic and complex environments. The sensor’s wide field of view, combined with real-time AR feedback, could provide users with a more intuitive control system and greater situational awareness, thereby improving human-robot interaction (HRI). Moreover, the sensor could aid in tasks requiring precise spatial awareness, such as navigating around obstacles or detecting specific objects \cite{benet2002infrared}.
-
-\begin{table}[ht]
-\centering
-\caption{Specifications of the Dagu Infrared Compound Eye}
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Specification} & \textbf{Value} \\ \hline
-Number of Detectors & 4 infrared sensors \\ \hline
-Detection Range & 200mm \\ \hline
-Operating Voltage & 5V \\ \hline
-Power Consumption & 10 mA \\ \hline
-\end{tabular}
-\label{tab:dagu_infrared}
-\end{table}
-
-
-Additionally, this sensor could provide valuable data that could be visualized for the user through augmented reality (AR), enabling a more interactive and user-friendly experience.
-
-\subsection{LiDAR Sensors} LiDAR (Light Detection and Ranging) is an essential technology for mobile robotics that uses laser light to measure distances and create 3D maps of environments. By utilizing LiDAR sensors, mobile robots can detect obstacles, map their surroundings, and navigate autonomously \cite{yang2022lidar}.
+LiDAR (Light Detection and Ranging) is an essential technology for mobile robotics that uses laser light to measure distances and create 3D maps of environments. By utilizing LiDAR sensors, mobile robots can detect obstacles, map their surroundings, and navigate autonomously \cite{yang2022lidar}.
 
 \begin{figure}[hb]
     \centering
@@ -334,10 +309,38 @@ On the other hand, the \textbf{TF Mini LiDAR (ToF)} sensor, although more limite
 
 Both sensors would improve the robot's environmental mapping and obstacle detection capabilities. Visualizing the LiDAR data in an AR interface would provide real-time feedback to users, enabling them to monitor the robot’s surroundings and make informed decisions about its movement.
 
+\section{Object Detection Algorithms}
+
+Apart from using physical dedicated sensors we are also capable of detecting objects and learning information from just using a camera as input. Below I discuss several models that allow us to enable real-time obstacle detection and navigation.
+
+\textbf{Haar Cascades}
+
+Haar cascades are one of the earlier object detection algorithms, initially introduced by Viola and Jones in 2001 \cite{viola2001robust}. This method utilizes features, such as edges and textures, to detect objects, traditionally used for face detection but also applicable in real-time environments where computational efficiency is a priority. Haar cascades, while fast, suffer from lower accuracy and can generate false positives, especially in complex environments \cite{machinelearningmastery2024}. Despite these limitations, Haar cascades remain an option for applications where speed is more critical than accuracy.
+
+\textbf{MobileNet SSD}
+
+MobileNet SSD (Single Shot Multibox Detector) is a more advanced architecture designed for embedded systems with limited computational power. It strikes a balance between speed and accuracy, making it suitable for real-time object detection on Raspberry Pi platforms \cite{howtotrainyourrobot2023}. MobileNet SSD has been used extensively in applications like obstacle detection for autonomous robots, offering a compromise between performance and resource efficiency. Its ability to process images quickly without sacrificing too much precision makes it a popular choice in resource-constrained environments.
+
+\textbf{TensorFlow Lite}
+
+TensorFlow Lite models are specifically optimized for mobile and embedded devices. These models perform well in real-time applications due to their efficient inference times and lower memory usage, while maintaining a reasonable level of accuracy \cite{tensorflowlite}. TensorFlow Lite offers additional advantages when quantized models are used, further reducing the computational load while maintaining accuracy suitable for AGV obstacle detection.
+
+\textbf{YOLOv5}
+
+YOLO (You Only Look Once) models are highly regarded for their ability to provide accurate real-time object detection. YOLOv5, especially in its smaller variants such as YOLOv5s and YOLOv5n, has been optimized for faster processing while maintaining high accuracy levels \cite{yolov5github}. YOLOv5s provides superior accuracy but may struggle with computational limitations on devices like the Raspberry Pi, making it less ideal for applications where real-time performance is crucial without hardware acceleration. In contrast, YOLOv5n (nano), being a lighter version of the model, offers a good balance of speed and accuracy, which is crucial for resource-limited platforms like the Raspberry Pi \cite{MuhammadYolo}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.74\linewidth]{ch2/figs/Comparison.png}
+	\caption{Comparison of Object Detection Models on Raspberry Pi}
+	\label{fig:object_detection_comparison}
+\end{figure}
+
+Given the balance between speed and accuracy required for real-time obstacle detection on a Raspberry Pi, YOLOv5n emerges as the most suitable choice. While it does not reach the same accuracy as YOLOv5s, its significantly improved speed makes it a better fit for autonomous navigation tasks where real-time performance is critical \cite{MuhammadYolo}. YOLOv5n provides a solid middle ground that enables efficient obstacle detection without introducing latency, which is essential in AGV or robot car applications.
+
+
 \section{Conclusion}
 
 This literature review has explored the integration of Augmented Reality (AR) with mobile robotics, focusing on Human-Robot Interaction (HRI). Key areas such as fiducial marker systems like ArUco markers, sensor technologies, and web-based control interfaces were examined to assess their role in improving real-time visualization and user interaction with robots.
 
-AR has emerged as a crucial tool in enhancing HRI, offering real-time feedback, improved situational awareness, and better task performance. Additionally, sensors such as ultrasonic and LiDAR, combined with AR, hold promise for optimizing navigation and obstacle avoidance in mobile robots.
-
-While AR shows significant potential for advancing HRI, challenges such as real-time processing limitations and the need for secure web-based interfaces remain. These insights will guide the development of my AR framework for the 4WD robotic car, focusing on real-time visualization, intuitive control, and efficient sensor integration.
+AR has emerged as a crucial tool in enhancing HRI, offering real-time feedback, improved situational awareness, and better task performance. Additionally, sensors such as ultrasonic and LiDAR, combined with AR, hold promise for optimizing navigation and obstacle avoidance in mobile robots. While AR shows significant potential for advancing HRI, challenges such as real-time processing limitations and the need for secure web-based interfaces remain. These insights will guide the development of my AR framework for the 4WD robotic car, focusing on real-time visualization, intuitive control, and efficient sensor integration.

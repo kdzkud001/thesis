@@ -6,7 +6,7 @@
 
 % NB!!!!  NB!!!
 %  You may need to have this file open and selected when compiling from TexStudio/TexMaker
-%  If you loaded (in TexStudio) the .txss file it should have the root file set already
+%  If you loaded (in TexStudio) the .txss file it should h ave the root file set already
 %  in which case you can compile from whatever file you have selected for the project.
 
 % Specify SA standard structures as per requirements for UCT dissertations
@@ -39,6 +39,28 @@
 \usepackage{xparse}
 \usepackage{float}
 \usepackage{multirow}
+
+
+\lstdefinestyle{pythonstyle}{
+	language=Python,
+	basicstyle=\ttfamily\small,
+	breaklines=true,
+	keywordstyle=\color{blue},
+	stringstyle=\color{green!50!black},
+	commentstyle=\color{red!50!black},
+	showstringspaces=false,
+	numbers=left,
+	numberstyle=\footnotesize\color{gray},
+	numbersep=5pt,
+	frame=single,
+	framesep=5pt,
+	rulecolor=\color{black!30},
+	backgroundcolor=\color{gray!10},
+	tabsize=4,
+}
+
+
+
 
 \setcounter{tocdepth}{5}
 \setcounter{secnumdepth}{5}
@@ -223,8 +245,11 @@ Comment: you do not need to have both nomenclature and abbreviations it tends to
 %@@@@@@@ Chapter 3 - Methodology  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 \input{ch3/ch3.tex}
 
-%@@@@@@@ Chapter 4 - Desing @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%@@@@@@@ Chapter 4 - Design @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 \input{ch4/ch4.tex}
+
+%@@@@@@@ Chapter 4 - Testing @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{Testing/Testing.tex}
 
 %@@@@@@ Chapter 5 - Results and Discussion @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 \input{ch5/ch5.tex}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  14 OCT 2024 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  19 OCT 2024 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,8 +1233,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count363
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
-8.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+20.
 
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1242,37 +1242,37 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (MSc_Dissertation.aux)
 \openout1 = `MSc_Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+.
 
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+.
 
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.47998pt on input line 98.
+Package xypdf Info: Line width: 0.47998pt on input line 120.
 
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1323,7 +1323,7 @@ ii
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 98.
+Package hyperref Info: Link coloring OFF on input line 120.
 (MSc_Dissertation.out) (MSc_Dissertation.out)
 \@outlinefile=\write6
 \openout6 = `MSc_Dissertation.out'.
@@ -1334,23 +1334,23 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count370
 Package tocbasic Info: omitting babel extension for `lol'
-(tocbasic)             because of missing \bbl@set@language on input line 98.
+(tocbasic)             because of missing \bbl@set@language on input line 120.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-18.
+40.
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<uctlogomain.png, id=282, 1304.875pt x 1331.97626pt>
+<uctlogomain.png, id=366, 1304.875pt x 1331.97626pt>
 File: uctlogomain.png Graphic file (type png)
 <use uctlogomain.png>
-Package pdftex.def Info: uctlogomain.png  used on input line 143.
+Package pdftex.def Info: uctlogomain.png  used on input line 165.
 (pdftex.def)             Requested size: 113.81102pt x 116.17366pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-46.
+68.
 
 (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1362,7 +1362,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 z/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./uctlogomain.png
 >]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-57.
+79.
  (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1382,19 +1382,21 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 ]
 
-[3])
+[3]
+
+[4])
 \tf@toc=\write7
 \openout7 = `MSc_Dissertation.toc'.
 
 
 
-[4] (MSc_Dissertation.lof)
+[5] (MSc_Dissertation.lof)
 \tf@lof=\write8
 \openout8 = `MSc_Dissertation.lof'.
 
 
 
-[5
+[6
 
 
 ] (MSc_Dissertation.lot)
@@ -1403,22 +1405,28 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 
 
-[6
+[7
 
 
 ] (abbreviations.tex)
 
-[7
+[8
 
 
 ]
 
-[8
+[9
 
 
 ] (ch1/ch1.tex
 Chapter 1.
-<ch1/figs/Vinci_car.jpg, id=451, 1610.015pt x 1074.0125pt>
+
+Overfull \hbox (0.45187pt too wide) in paragraph at lines 3--4
+\OT1/ptm/m/n/12 human-machine in-ter-ac-tion ex-pe-ri-ence. This fu-sion of tec
+h-nolo-gies promises to push the bound-
+ []
+
+<ch1/figs/Vinci_car.jpg, id=563, 1610.015pt x 1074.0125pt>
 File: ch1/figs/Vinci_car.jpg Graphic file (type jpg)
 <use ch1/figs/Vinci_car.jpg>
 Package pdftex.def Info: ch1/figs/Vinci_car.jpg  used on input line 11.
@@ -1430,9 +1438,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 T
-      he integration of AR and fiducial markers in robotics enhances percept...
-[1
+l.17 
+      [1
 
 
  <./ch1/figs/Vinci_car.jpg>]
@@ -1440,143 +1447,170 @@ l.20 T
 [2]
 
 [3]
-
-[4]
-
-[5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[6]) (ch2/ch2.tex
+[4]) (ch2/ch2.tex
 
-[7]
+[5]
 Chapter 2.
-<ch2/figs/lit_overview.png, id=499, 1431.09656pt x 309.40594pt>
+<ch2/figs/lit_overview.png, id=603, 1431.09656pt x 309.40594pt>
 File: ch2/figs/lit_overview.png Graphic file (type png)
 <use ch2/figs/lit_overview.png>
-Package pdftex.def Info: ch2/figs/lit_overview.png  used on input line 7.
+Package pdftex.def Info: ch2/figs/lit_overview.png  used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 98.4265pt.
 
-Overfull \hbox (25.88567pt too wide) in paragraph at lines 12--12
+Overfull \hbox (25.88567pt too wide) in paragraph at lines 18--18
 |[]\OT1/ptm/b/sc/17.28 Introduction to Human-Robot In-ter-ac-tion (HRI)
  []
 
-<ch2/figs/image_overlay.png, id=502, 853.1875pt x 501.875pt>
-File: ch2/figs/image_overlay.png Graphic file (type png)
-<use ch2/figs/image_overlay.png>
-Package pdftex.def Info: ch2/figs/image_overlay.png  used on input line 20.
-(pdftex.def)             Requested size: 364.19667pt x 214.2398pt.
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
 
-[8
+
+[6
 
  <./ch2/figs/lit_overview.png>]
+<ch2/figs/overlay.png, id=612, 585.68813pt x 450.9347pt>
+File: ch2/figs/overlay.png Graphic file (type png)
+<use ch2/figs/overlay.png>
+Package pdftex.def Info: ch2/figs/overlay.png  used on input line 26.
+(pdftex.def)             Requested size: 386.96027pt x 297.94121pt.
 
-[9 <./ch2/figs/image_overlay.png (PNG copy)>]
-Overfull \hbox (1.11078pt too wide) in paragraph at lines 47--48
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[7 <./ch2/figs/overlay.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8]
+Overfull \hbox (1.11078pt too wide) in paragraph at lines 53--54
 \OT1/ptm/m/n/12 com-mu-ni-cate their in-ten-tions and in-ter-act with their en-
 vi-ron-ment. AR not only en-hances human-
  []
 
+<ch2/figs/robot_nav2.png, id=640, 441.14813pt x 421.575pt>
+File: ch2/figs/robot_nav2.png Graphic file (type png)
+<use ch2/figs/robot_nav2.png>
+Package pdftex.def Info: ch2/figs/robot_nav2.png  used on input line 65.
+(pdftex.def)             Requested size: 182.09486pt x 174.01761pt.
+<ch2/figs/robot_nav_1.png, id=643, 243.91125pt x 282.30469pt>
+File: ch2/figs/robot_nav_1.png Graphic file (type png)
+<use ch2/figs/robot_nav_1.png>
+Package pdftex.def Info: ch2/figs/robot_nav_1.png  used on input line 72.
+(pdftex.def)             Requested size: 145.68144pt x 168.61304pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[10]
-<ch2/figs/robot_nav2.png, id=533, 441.14813pt x 421.575pt>
-File: ch2/figs/robot_nav2.png Graphic file (type png)
-<use ch2/figs/robot_nav2.png>
-Package pdftex.def Info: ch2/figs/robot_nav2.png  used on input line 59.
-(pdftex.def)             Requested size: 182.09486pt x 174.01761pt.
-<ch2/figs/robot_nav_1.png, id=536, 243.91125pt x 282.30469pt>
-File: ch2/figs/robot_nav_1.png Graphic file (type png)
-<use ch2/figs/robot_nav_1.png>
-Package pdftex.def Info: ch2/figs/robot_nav_1.png  used on input line 66.
-(pdftex.def)             Requested size: 145.68144pt x 168.61304pt.
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-[11 <./ch2/figs/robot_nav2.png> <./ch2/figs/robot_nav_1.png>]
 
-[12]
-<ch1/figs/ARToolkit.jpg, id=557, 480.79625pt x 481.8pt>
+[10 <./ch2/figs/robot_nav2.png> <./ch2/figs/robot_nav_1.png>]
+<ch1/figs/ARToolkit.jpg, id=664, 480.79625pt x 481.8pt>
 File: ch1/figs/ARToolkit.jpg Graphic file (type jpg)
 <use ch1/figs/ARToolkit.jpg>
-Package pdftex.def Info: ch1/figs/ARToolkit.jpg  used on input line 108.
+Package pdftex.def Info: ch1/figs/ARToolkit.jpg  used on input line 114.
 (pdftex.def)             Requested size: 113.81102pt x 114.04639pt.
-<ch1/figs/AprilTag.png, id=558, 274.02374pt x 272.51813pt>
+<ch1/figs/AprilTag.png, id=665, 274.02374pt x 272.51813pt>
 File: ch1/figs/AprilTag.png Graphic file (type png)
 <use ch1/figs/AprilTag.png>
-Package pdftex.def Info: ch1/figs/AprilTag.png  used on input line 115.
+Package pdftex.def Info: ch1/figs/AprilTag.png  used on input line 121.
 (pdftex.def)             Requested size: 113.81102pt x 113.18855pt.
-<ch1/figs/ArUco.png, id=559, 282.30469pt x 282.30469pt>
+<ch1/figs/ArUco.png, id=666, 282.30469pt x 282.30469pt>
 File: ch1/figs/ArUco.png Graphic file (type png)
 <use ch1/figs/ArUco.png>
-Package pdftex.def Info: ch1/figs/ArUco.png  used on input line 122.
+Package pdftex.def Info: ch1/figs/ArUco.png  used on input line 128.
 (pdftex.def)             Requested size: 113.81102pt x 113.81154pt.
 
 
-[13 <./ch1/figs/ARToolkit.jpg (PNG copy)> <./ch1/figs/AprilTag.png> <./ch1/figs
-/ArUco.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\OT1/ptm/b/n/12 Detection
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\OT1/ptm/b/n/12 Computational
  []
 
 
-Underfull \vbox (badness 5802) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+
+[12 <./ch1/figs/ARToolkit.jpg (PNG copy)> <./ch1/figs/AprilTag.png> <./ch1/figs
+/ArUco.png>]
+
+[13]
 
 [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [16]
+<ch2/figs/ultrasonic_sensor.png, id=727, 752.8125pt x 454.69875pt>
+File: ch2/figs/ultrasonic_sensor.png Graphic file (type png)
+<use ch2/figs/ultrasonic_sensor.png>
+Package pdftex.def Info: ch2/figs/ultrasonic_sensor.png  used on input line 242
+.
+(pdftex.def)             Requested size: 241.27881pt x 145.72859pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[]|\OT1/ptm/b/n/12 Operating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\OT1/ptm/b/n/12 Volt-age
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [17]
+<ch2/figs/lidar_graphic.png, id=737, 1352.05125pt x 703.12688pt>
+File: ch2/figs/lidar_graphic.png Graphic file (type png)
+<use ch2/figs/lidar_graphic.png>
+Package pdftex.def Info: ch2/figs/lidar_graphic.png  used on input line 274.
+(pdftex.def)             Requested size: 227.62206pt x 118.37126pt.
+
+
+[18 <./ch2/figs/ultrasonic_sensor.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[18]
-<ch2/figs/ultrasonic_sensor.png, id=621, 752.8125pt x 454.69875pt>
-File: ch2/figs/ultrasonic_sensor.png Graphic file (type png)
-<use ch2/figs/ultrasonic_sensor.png>
-Package pdftex.def Info: ch2/figs/ultrasonic_sensor.png  used on input line 236
-.
-(pdftex.def)             Requested size: 241.27881pt x 145.72859pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\OT1/ptm/b/n/12 Operating
- []
+[19 <./ch2/figs/lidar_graphic.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\OT1/ptm/b/n/12 Volt-age
- []
-
-
-
-[19 <./ch2/figs/ultrasonic_sensor.png (PNG copy)>]
 
 [20]
-<ch2/figs/lidar_graphic.png, id=640, 1352.05125pt x 703.12688pt>
-File: ch2/figs/lidar_graphic.png Graphic file (type png)
-<use ch2/figs/lidar_graphic.png>
-Package pdftex.def Info: ch2/figs/lidar_graphic.png  used on input line 299.
-(pdftex.def)             Requested size: 227.62206pt x 118.37126pt.
+<ch2/figs/Comparison.png, id=765, 539.616pt x 371.58826pt>
+File: ch2/figs/Comparison.png Graphic file (type png)
+<use ch2/figs/Comparison.png>
+Package pdftex.def Info: ch2/figs/Comparison.png  used on input line 334.
+(pdftex.def)             Requested size: 336.88313pt x 231.98694pt.
+) (RaF/RaF.tex
 
-
-[21 <./ch2/figs/lidar_graphic.png>]) (RaF/RaF.tex
+[21 <./ch2/figs/Comparison.png>]
 
 [22]
 Chapter 3.
@@ -1673,11 +1707,14 @@ Overfull \hbox (5.49438pt too wide) in paragraph at lines 29--38
 
 [24]
 Chapter 4.
-<ch3/figs/diagram.png, id=662, 832.10875pt x 497.86pt>
+<ch3/figs/diagram.png, id=786, 832.10875pt x 497.86pt>
 File: ch3/figs/diagram.png Graphic file (type png)
 <use ch3/figs/diagram.png>
 Package pdftex.def Info: ch3/figs/diagram.png  used on input line 9.
-(pdftex.def)             Requested size: 318.66948pt x 190.66252pt.
+(pdftex.def)             Requested size: 364.19667pt x 217.90437pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [25
@@ -1698,7 +1735,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [29
 
 ]
-<ch4/figs/robot_car.png, id=696, 922.19531pt x 423.83344pt>
+<ch4/figs/robot_car.png, id=820, 922.19531pt x 423.83344pt>
 File: ch4/figs/robot_car.png Graphic file (type png)
 <use ch4/figs/robot_car.png>
 Package pdftex.def Info: ch4/figs/robot_car.png  used on input line 17.
@@ -1715,7 +1752,7 @@ Overfull \hbox (22.10999pt too wide) in paragraph at lines 42--61
 [31]
 
 [32]
-<ch4/figs/H-Bridge-Interface.png, id=715, 602.25pt x 344.78813pt>
+<ch4/figs/H-Bridge-Interface.png, id=840, 602.25pt x 344.78813pt>
 File: ch4/figs/H-Bridge-Interface.png Graphic file (type png)
 <use ch4/figs/H-Bridge-Interface.png>
 Package pdftex.def Info: ch4/figs/H-Bridge-Interface.png  used on input line 10
@@ -1726,80 +1763,137 @@ Package pdftex.def Info: ch4/figs/H-Bridge-Interface.png  used on input line 10
 [33 <./ch4/figs/H-Bridge-Interface.png>]
 
 [34]
-<ch4/figs/hi.png, id=726, 1365.60187pt x 703.12688pt>
+<ch4/figs/hi.png, id=850, 1382.91656pt x 685.8122pt>
 File: ch4/figs/hi.png Graphic file (type png)
 <use ch4/figs/hi.png>
 Package pdftex.def Info: ch4/figs/hi.png  used on input line 177.
-(pdftex.def)             Requested size: 227.62206pt x 117.1911pt.
+(pdftex.def)             Requested size: 364.19667pt x 180.60918pt.
 
 
-[35]) (ch5/ch5.tex
+[35]
 
 [36 <./ch4/figs/hi.png>]
+Overfull \hbox (12.94229pt too wide) in paragraph at lines 216--217
+[]\OT1/ptm/b/n/12 Flask-SocketIO\OT1/ptm/m/n/12 : Al-lowed for real-time com-mu
+-ni-ca-tion be-tween the Pi and the web browser,
+ []
+
+
+
+[37]
+<ch4/figs/calibration.png, id=864, 845.40843pt x 416.30531pt>
+File: ch4/figs/calibration.png Graphic file (type png)
+<use ch4/figs/calibration.png>
+Package pdftex.def Info: ch4/figs/calibration.png  used on input line 236.
+(pdftex.def)             Requested size: 409.71692pt x 201.75537pt.
+
+
+[38 <./ch4/figs/calibration.png>]
+
+[39]
+
+[40]
+
+[41]
+
+[42]) (Testing/Testing.tex
+
+[43]
 Chapter 6.
+<Testing/figs/flow.png, id=894, 505.89pt x 570.13pt>
+File: Testing/figs/flow.png Graphic file (type png)
+<use Testing/figs/flow.png>
+Package pdftex.def Info: Testing/figs/flow.png  used on input line 7.
+(pdftex.def)             Requested size: 318.66948pt x 359.1403pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[44
+
+ <./Testing/figs/flow.png>]
+
+[45]
+
+[46]
+
+[47]
+
+[48]
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+
+[49]
+
+[50]) (ch5/ch5.tex
+
+[51]
+Chapter 7.
 ) (ch6/ch6.tex
 
-[37
+[52
 
 ]
-Chapter 7.
-<ch6/figs/picture.jpg, id=742, 552.0625pt x 310.15875pt>
+Chapter 8.
+<ch6/figs/picture.jpg, id=973, 552.0625pt x 310.15875pt>
 File: ch6/figs/picture.jpg Graphic file (type jpg)
 <use ch6/figs/picture.jpg>
 Package pdftex.def Info: ch6/figs/picture.jpg  used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 255.77527pt.
 ) (MSc_Dissertation.bbl
 
-[38
+[53
 
  <./ch6/figs/picture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
 []\OT1/ptm/m/n/12 Random Nerd Tu-to-ri-als.  Com-plete guide for ul-tra-sonic s
 en-sor hc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
 \OT1/ptm/m/n/12 sr04 with ar-duino.  []$\OT1/pcr/m/n/12 https : / / randomnerdt
 utorials . com /
  []
 
 
 
-[39
+[54
 
 ]
-Underfull \hbox (badness 2547) in paragraph at lines 157--163
+
+[55]
+Underfull \hbox (badness 2547) in paragraph at lines 163--169
 []\OT1/ptm/m/n/12 N. Maupin and N. Maupin.  How do ul-tra-sonic sen-sors work? 
  []$\OT1/pcr/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
 \OT1/pcr/m/n/12 / / howdowork . com / technology / computers-[]electronics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
 \OT1/pcr/m/n/12 ultrasonic-[]sensors-[]working / # : [] : text = How % 20Do % 2
 0Ultrasonic %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
 \OT1/pcr/m/n/12 20Sensors % 20Work % 20Ultrasonic % 20sensors % 20work ,[] they
  % 20are %
  []
 
+) (Appendix/appendixA.tex
 
-
-[40]) (Appendix/appendixA.tex
-
-[41]
+[56]
 Appendix A.
 )
 
-[42
+[57
 
 ] (MSc_Dissertation.aux)
  ***********
@@ -1807,27 +1901,29 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `MSc_Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 73B90286FCF004CEE225816BAD940406;13275.
+(rerunfilecheck)             Checksum: 9CA884433CE3A2DE4A3714F62914AA5B;17685.
  ) 
 Here is how much of TeX's memory you used:
- 40779 strings out of 473898
- 890481 string characters out of 5726479
- 1466835 words of memory out of 5000000
- 62660 multiletter control sequences out of 15000+600000
- 596357 words of font info for 109 fonts, out of 8000000 for 9000
+ 41364 strings out of 473898
+ 897352 string characters out of 5726479
+ 1700016 words of memory out of 5000000
+ 63154 multiletter control sequences out of 15000+600000
+ 598457 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,107p,3298b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.
-pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
-8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
-hvr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
-tmbi8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
-utmr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on MSc_Dissertation.pdf (52 pages, 6660823 bytes).
+ 110i,12n,107p,3298b,1432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/courier/ucrr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/helvetic/uhvb8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmb8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmbi8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on MSc_Dissertation.pdf (68 pages, 6905766 bytes).
 PDF statistics:
- 845 PDF objects out of 1000 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
- 645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1102 PDF objects out of 1200 (max. 8388607)
+ 266 named destinations out of 1000 (max. 500000)
+ 828 words of extra memory for PDF output out of 10000 (max. 10000000)
 

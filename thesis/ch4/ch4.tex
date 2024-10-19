@@ -174,26 +174,171 @@ The bulk of the project relied on software to function, as it serves as the brai
 	\centering
 	
 	\centering
-	\includegraphics[width=0.5\textwidth]{ch4/figs/hi.png}
+	\includegraphics[width=0.8\textwidth]{ch4/figs/hi.png}
 	\caption{Illustration of the project production process.}
 	\label{fig:moto}
 \end{figure}
 
-\begin{table}[ht]
-\centering
-\caption{System Architecture Components}
-\label{tab:system_architecture}
-\begin{tabular}{|p{5cm}|p{10cm}|}
-	\hline
-	\textbf{Component}          & \textbf{Description}                                                                                                              \\ \hline
-	Microcontroller/Processor   & Manages computer vision algorithms and interfaces with hardware. Responsible for overall system control and data processing.      \\ \hline
-	Web Camera                  & Provides real-time video feed for remote monitoring and vision tasks. Captures high-quality images for processing.                \\ \hline
-	Motor and Drive System      & Four-wheel drive system for robot mobility. Includes motors and a motor controller for precise movement control.                  \\ \hline
-	Fiducial Markers            & Visual markers (e.g., ArUco or AprilTag) placed in the environment to assist with localization and navigation.                    \\ \hline
-	Web-based Control Interface & Allows remote control of the robot’s movements and camera functions, with video streaming capabilities.                           \\ \hline
-	Power Supply                & Provides electrical power to all components of the system. Needs to support extended operation and peak power demands.            \\ \hline
-	Chassis                     & Physical structure of the robot that houses and protects all components. Designed for durability and optimal component placement. \\ \hline
-	Sensors                     & Additional sensors for environmental awareness (e.g., ultrasonic sensors, IMU, GPS).                                              \\ \hline
-	Communication Module        & Enables wireless communication between the robot and the control interface, supporting long-range and reliable data transmission. \\ \hline
-\end{tabular}
-\end{table}
+\subsection{Development Environment Setup}
+
+To begin the development of the robot, I set up a **headless Raspberry Pi** environment, which means that I connected to the Pi remotely over SSH, avoiding the need for a physical monitor, keyboard, or mouse. This headless setup is common for Raspberry Pi projects where the Pi is used as an embedded device, and allows for easier control via the network from my laptop. I initiated an SSH session using the command:
+
+\begin{quote}
+	\texttt{ssh pi@<raspberry-pi-ip>}
+\end{quote}
+
+from my development machine to connect to the Pi and began the process of setting up the environment.
+
+The primary goal of the development environment was to create a clean, isolated workspace that would avoid interfering with the **Pi’s system libraries** and default configurations. To achieve this, I decided to set up a **virtual Python environment** using \texttt{venv}, which would ensure that all libraries required for this project were contained within the environment and did not alter the system’s default Python packages.
+
+To create and activate the environment, I ran:
+
+\begin{quote}
+	\texttt{python3 -m venv robot\_env} \\
+	\texttt{source robot\_env/bin/activate}
+\end{quote}
+
+This created an isolated environment named \texttt{robot\_env}, and activated it so that all subsequent library installations would be confined to this environment. From here, I proceeded to install the essential libraries required for the project.
+
+
+The project depended on several libraries for various functions. Some of these libraries were for The project depended on several libraries for various functions. Some of these libraries were for \textbf{web development}, like \textbf{Flask} and \textbf{Flask-SocketIO}, which handled real-time communication between the Raspberry Pi and the web interface. Others were for \textbf{computer vision}, including \textbf{OpenCV} and \textbf{ArUco}, which would handle marker detection and processing of the video feed.
+
+
+To install the required libraries, I used \texttt{pip} within the activated virtual environment. Here is an  command that I used to install all the necessary dependencies:
+
+\begin{quote}
+	\texttt{pip install flask flask-socketio opencv-python}
+\end{quote}
+
+Each of these libraries served a specific purpose:
+\begin{itemize}
+	\item \textbf{Flask}: Used to create the web server that would serve the video feed and receive control commands from the user interface.
+	\item \textbf{Flask-SocketIO}: Allowed for real-time communication between the Pi and the web browser, facilitating responsive control of the robot.
+	\item \textbf{OpenCV}: Essential for the image processing tasks, including capturing the video feed and detecting ArUco markers used for localization and navigation.
+	\item \textbf{aiortc}: This provided support for WebRTC, allowing for the live video streaming of the robot’s camera feed to the user.
+	\item \textbf{pigpio}: A library used for controlling GPIO pins with finer control, providing more accurate timing than \texttt{RPi.GPIO}.
+	\item \textbf{Numpy}: Required for handling array and matrix operations, useful for image and data processing in OpenCV.
+	\item \textbf{uuid} and \textbf{asyncio}: Used for generating unique identifiers and handling asynchronous operations in the code, particularly for real-time communication via WebRTC.
+\end{itemize}
+
+These libraries were specifically selected to ensure smooth operation of the robot’s core functions, including image processing, real-time control, and web interaction. By managing the project’s dependencies in an isolated virtual environment, I minimized the risk of conflicts and ensured that the project could be easily reproduced or transferred to another system if necessary.
+
+\subsection{Camera Calibration}
+
+Before proceeding with the implementation of the robot’s image processing pipeline, I first verified that the camera was functioning correctly. This involved ensuring that the Raspberry Pi camera module was properly connected and that the Raspberry Pi could capture live video feeds. Once this basic functionality was confirmed, the next step was to calibrate the camera to account for lens distortion, a crucial step for ensuring accurate marker detection later in the project.
+
+To perform the calibration, I ran a \textbf{Flask web application} that captured and stored images from the camera for the calibration process. The process of camera calibration involves capturing multiple images of a checkerboard pattern at various angles, which allows for the correction of geometric distortions such as barrel distortion in the captured images. Using the images, I applied OpenCV’s camera calibration functionality to compute the intrinsic and distortion parameters of the camera.
+
+The Flask app was set up to continuously stream the live feed from the camera and save frames at regular intervals. Below is a brief overview of the code used to capture images from the camera and store them for calibration:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{ch4/figs/calibration.png}
+	\caption{Diagram of the functionality of the calibration app.}
+	\label{fig:calibration}
+\end{figure}
+
+After confirming the camera’s functionality, I captured a series of images through the Flask app, which were then processed using OpenCV’s camera calibration tools. The calibration process computes the intrinsic camera matrix and distortion coefficients, which are essential for removing distortion and ensuring the accuracy of subsequent image processing steps.
+
+OpenCV's camera calibration tool was used, with images of a checkerboard pattern captured by the camera. The following steps were followed for the calibration:
+
+\begin{enumerate}
+	\item \textbf{Capture Images}: The Flask app automatically saved images at a regular interval during the video feed, stored in the specified directory.
+	\item \textbf{Camera Calibration}: Using OpenCV, the captured images were processed to detect the checkerboard pattern and calculate the camera’s intrinsic and distortion parameters.
+	\item \textbf{Saving Results}: Once the camera was successfully calibrated, the calibration parameters (including the camera matrix and distortion coefficients) were saved to a YAML file, which could be used later for distortion correction in real-time video processing.
+\end{enumerate}
+
+The resulting calibration file was stored in calibration.yaml, which contained the necessary parameters for correcting lens distortion during subsequent image processing tasks. This YAML file is crucial for ensuring that the robot can accurately interpret the positions of ArUco markers in real-world coordinates, even when captured through distorted lenses.
+
+
+\subsection{ArUco Marker Detection}
+
+
+The architecture for ArUco marker detection was designed with the goal of providing accurate and efficient detection of fiducial markers to enhance the robot’s ability to understand and interact with its environment. ArUco markers are widely used in robotics due to their robustness, ease of detection, and the ability to encode unique IDs in each marker, which makes them ideal for navigation, localization, and task execution as already discussed at length in the Literature review.
+
+
+The detection system is built on top of the OpenCV library, leveraging the \texttt{aruco} module to identify markers in real-time from the camera feed. The architecture includes the following components:
+
+\begin{itemize}
+	\item \textbf{Camera Module}: Continuously captures the video stream and sends the frames to the processing unit.
+	\item \textbf{Image Preprocessing}: Each frame is first converted to grayscale to reduce computational load and improve detection accuracy. OpenCV’s image filtering tools are used to enhance the quality of the frame and ensure that the markers can be detected even in suboptimal lighting conditions.
+	\item \textbf{ArUco Dictionary}: The dictionary is pre-loaded with the specific set of ArUco markers that will be used in the project. This dictionary defines the pattern and structure of the markers to be detected.
+	\item \textbf{Marker Detection Algorithm}: The detection algorithm looks for rectangular shapes in the image, computes their corner points, and compares them with the reference markers in the dictionary.
+	\item \textbf{Pose Estimation}: Once a marker is detected, its pose (position and orientation) relative to the camera is calculated using the camera's intrinsic parameters, which were obtained from the calibration process.
+\end{itemize}
+
+This architecture ensures real-time performance and reliable detection, allowing the robot to respond dynamically to changes in its environment based on the detected markers.
+
+
+I chose the \textbf{4x4 marker dictionary} for this project because of its balance between detection reliability and encoding capacity. The \texttt{DICT\_4X4\_50} dictionary, which includes 50 unique markers, was particularly suitable for the following reasons:
+
+\begin{itemize}
+	\item \textbf{Detection Accuracy}: 4x4 markers are smaller in size compared to larger dictionaries (e.g., 5x5 or 6x6), making them easier to detect at varying distances and angles. Their simplicity reduces computational overhead, which is critical for real-time detection on the Raspberry Pi.
+	\item \textbf{Encoding Capacity}: With 50 markers, the dictionary provides enough unique markers to cover a range of tasks, including identifying specific control zones, tracking key landmarks, and providing task-specific instructions. The number of markers is more than sufficient for the scope of this project, which involves interacting with a limited number of known markers.
+	\item \textbf{Robustness}: The smaller marker size of 4x4 patterns is more tolerant of slight distortions caused by the camera lens or viewing angle. This makes them ideal for use in dynamic environments where the camera's view of the markers may be imperfect.
+	\item \textbf{Efficiency}: Larger dictionaries, such as 5x5 or 6x6, would increase the complexity of detection without providing significant benefits for this specific application. The 4x4 dictionary strikes a balance between detection speed and complexity, making it a more efficient choice for a resource-constrained platform like the Raspberry Pi.
+\end{itemize}
+
+\subsection{Web Interface and Server Design}
+
+The design of the web interface and server was a critical component of this project, enabling remote control and real-time monitoring of the robot’s movements. The goal was to create a lightweight and responsive interface that could be accessed through a standard web browser, allowing users to control the robot and view live feedback from the camera in real-time.
+
+\subsubsection{Server Architecture}
+
+The server was built using the Flask framework, a micro web framework for Python, which provides a lightweight yet powerful way to serve dynamic content over HTTP. Flask was chosen for its simplicity and efficiency, making it ideal for handling web requests, streaming video data, and managing control inputs from the user.
+
+The core architecture of the server includes the following key components:
+\begin{itemize}
+	\item \textbf{Flask Web Server}: Responsible for serving the main web page and handling HTTP requests. Flask's flexibility allows for seamless integration of both static files (e.g., HTML, JavaScript, CSS) and dynamic content (e.g., video streaming).
+	\item \textbf{SocketIO Integration}: For real-time communication between the web interface and the robot, Flask-SocketIO was implemented. This allows the web client to send control commands (e.g., movement instructions) to the robot without having to reload the page. SocketIO also enables real-time feedback by pushing notifications and data updates to the client.
+	\item \textbf{Video Streaming}: The robot’s camera feed is streamed to the web interface using Flask’s response streaming mechanism. The video is captured frame by frame by the camera, processed, and then sent to the web client, where it is displayed in near real-time.
+
+\end{itemize}
+
+The server continuously listens for incoming client connections, serving the web interface and responding to user inputs. By combining Flask and SocketIO, the system can handle asynchronous events efficiently, ensuring that the robot’s movements are responsive to the user’s input while providing low-latency video feedback.
+
+\subsubsection{Web Interface Design}
+
+The web interface was designed to be intuitive and responsive, allowing the user to control the robot through simple keyboard inputs (W, A, S, D keys) and view a live video stream from the robot’s camera. The interface was built using HTML5, CSS, and JavaScript, ensuring compatibility with modern web browsers.
+
+Key features of the web interface include:
+\begin{itemize}
+	\item \textbf{Control Panel}: A set of virtual buttons and keyboard inputs for controlling the robot’s movements. These controls are mapped to the robot’s movement functions through SocketIO, ensuring that inputs are transmitted to the robot in real time.
+	\item \textbf{Live Video Feed}: A video player embedded in the web page streams the live feed from the robot’s camera. This allows the user to see exactly what the robot sees and make informed control decisions based on the video feed.
+	\item \textbf{Feedback and Status Updates}: The interface provides real-time status updates, such as the robot’s current position, speed, and any detected ArUco markers. These updates are pushed to the web client via SocketIO, ensuring the user has continuous feedback on the robot’s status.
+\end{itemize}
+
+\subsubsection{Design Considerations}
+
+\textbf{Performance and Latency}: Since the system is designed to operate in real-time, reducing latency in both video streaming and control inputs was a primary concern. Flask-SocketIO was chosen for its ability to handle bi-directional communication efficiently, while the video stream was optimized using a lower resolution and frame rate to reduce the load on the Raspberry Pi and ensure smoother performance.
+
+\textbf{Scalability}: While the system was initially designed for a single user, the architecture allows for future scalability. The use of SocketIO enables multiple clients to connect to the server and receive live updates simultaneously. This could be extended to allow multiple users to observe the robot's movements or control the robot in different contexts.
+
+
+\subsection{Wheel Interface Design}
+
+The wheel interface was designed to control four motors, arranged in pairs, connected to an L298N H-bridge motor driver. Each pair of motors is responsible for controlling the left and right sides of the robot, allowing for differential steering. The system uses the Raspberry Pi's GPIO pins to control the direction and speed of the motors through Pulse Width Modulation (PWM).
+
+\subsubsection{Motor Control Using GPIO and PWM}
+
+Each motor pair is controlled using two GPIO pins for direction control and one PWM pin for speed control. The L298N H-bridge allows the Raspberry Pi to control the motors in both forward and reverse directions by manipulating the GPIO pins. The PWM signal controls the speed of the motors by adjusting the duty cycle of the signal sent to the H-bridge.
+
+\begin{itemize}
+	\item \textbf{Forward Movement}: Both pairs of motors are driven in the same direction, with a high signal sent to the forward GPIO pin and a low signal to the reverse pin. The PWM signal controls the speed of both motor pairs, allowing the robot to move forward.
+	\item \textbf{Turning}: To turn, the speed or direction of one pair of motors is adjusted. For example, to turn left, the left motor pair is reversed, while the right motor pair continues to move forward.
+	\item \textbf{Stop}: The robot is stopped by setting all GPIO pins to low, cutting off the power to both motor pairs.
+\end{itemize}
+
+\subsubsection{Integration with Web Interface}
+
+The web interface allows the user to control the robot in real-time by sending movement commands via Flask-SocketIO. These commands are mapped to motor control functions in the backend, where the GPIO pins are set according to the desired direction and speed. The key inputs (W, A, S, D) correspond to forward, left, backward, and right movements, which are translated into GPIO signals for the motor pairs.
+
+\begin{itemize}
+	\item \textbf{W Key}: Moves the robot forward by setting both motor pairs to move in the forward direction.
+	\item \textbf{S Key}: Reverses both motor pairs to move the robot backward.
+	\item \textbf{A Key}: Adjusts the motor speed and direction to turn left by slowing down or reversing the left motor pair.
+	\item \textbf{D Key}: Adjusts the motor speed and direction to turn right by slowing down or reversing the right motor pair.
+\end{itemize}
+
+This design provides precise control over the robot’s movements and allows the user to navigate the robot using the web interface in real-time. By using PWM, the robot’s speed can be smoothly adjusted based on the user’s input.
+

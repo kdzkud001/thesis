@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{ResearchGateAR2024}
+{ResearchGate}.
+\newblock Augmented reality types and popular use cases.
+\newblock {\em ResearchGate}, 2024.
+\newblock [Online; accessed 18-October-2024].
+
 \bibitem{randomnerd2021ultrasonic}
 Random~Nerd Tutorials.
 \newblock Complete guide for ultrasonic sensor hc-sr04 with arduino.
@@ -161,22 +167,42 @@ N.~Maupin and N.~Maupin.
   September 2023.
 \newblock Accessed: 2024-09-21.
 
-\bibitem{benet2002infrared}
-G.~Benet, F.~Blanes, J.E. Simó, and P.~Pérez.
-\newblock Using infrared sensors for distance measurement in mobile robots.
-\newblock {\em Robotics and Autonomous Systems}, 40(4):255--266, Sep 2002.
-
-\bibitem{rhydo2024}
-{rhydoLABZ}.
-\newblock Dagu compound infrared sensor.
-\newblock 2024.
-\newblock Accessed: 2024-09-28.
-
 \bibitem{yang2022lidar}
 T.~Yang et~al.
 \newblock 3d tof lidar in mobile robotics: A review.
 \newblock {\em arXiv}, 2022.
 \newblock Accessed: 2024-09-28.
+
+\bibitem{viola2001robust}
+Paul Viola and Michael~J Jones.
+\newblock Robust real-time face detection.
+\newblock {\em International journal of computer vision}, 57(2):137--154, 2001.
+
+\bibitem{machinelearningmastery2024}
+Jason Brownlee.
+\newblock Using haar cascade for object detection, 2024.
+\newblock Accessed: 2024-10-18.
+
+\bibitem{howtotrainyourrobot2023}
+How to~Train Your~Robot.
+\newblock Training mobilenet ssd on custom objects, 2023.
+\newblock Accessed: 2024-10-18.
+
+\bibitem{tensorflowlite}
+TensorFlow.
+\newblock Tensorflow lite for mobile and embedded devices, 2024.
+\newblock Accessed: 2024-10-18.
+
+\bibitem{yolov5github}
+Glenn Jocher.
+\newblock Yolov5: Pytorch implementation, 2024.
+\newblock Accessed: 2024-10-18.
+
+\bibitem{MuhammadYolo}
+Muhammad Hussain.
+\newblock Yolov5, yolov8 and yolov10: The go-to detectors for real-time vision,
+  2024.
+\newblock Accessed: 2024-10-18.
 
 \bibitem{delfa2015}
 'G.C.~La Delfa', 'V. Catania', 'S. Monteleone', 'J.F.~De Paz', and "J. Bajo".
