@@ -4,13 +4,17 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of Ultrasonic Sensors}}{18}{table.caption.15}%
 \contentsline {table}{\numberline {2.3}{\ignorespaces Comparison of RPLIDAR A1 and TF Mini LiDAR (ToF) Sensors}}{19}{table.caption.17}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Enhanced Breakdown of sub-tests to be performed in the acceptance testing.}}{24}{table.caption.19}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Requirements and Functionalities for the Robot Control System}}{23}{table.caption.20}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Enhanced Breakdown of sub-tests to be performed in the acceptance testing.}}{26}{table.caption.21}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison of Raspberry Pi Model 4B RAM Versions}}{29}{table.caption.23}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of Logitech C270 and Raspberry Pi Camera Module V2}}{30}{table.caption.24}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison of Motor Driver Options}}{31}{table.caption.25}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Truth Table for L298N H-Bridge Motor Control}}{32}{table.caption.27}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Summary of libraries and tools used in the project.}}{35}{table.caption.29}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of Raspberry Pi Model 4B RAM Versions}}{31}{table.caption.22}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Comparison between Logitech C270 and Raspberry Pi Camera Module}}{32}{table.caption.23}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Truth Table for L298N H-Bridge Motor Control}}{33}{table.caption.25}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces ArUco Marker Detection Performance}}{49}{table.caption.33}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Distance Measurement Accuracy}}{50}{table.caption.35}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

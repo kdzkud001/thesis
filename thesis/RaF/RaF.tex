@@ -1,24 +1,24 @@
 \chapter{\label{ch:req_and_specs} Requirements and Specifications}
 
-This project builds on the primary objective of enhancing human-robot interaction (HRI) by integrating Augmented Reality (AR) into a mobile robot. As outlined in Section \ref{sec:objectives}, the system needs to meet specific requirements to ensure it performs as intended. These requirements were established through research, discussions with supervisor, and analysis of the intended user environment. The requirements are designed to guide both the technical implementation and the user experience, ensuring the robot operates seamlessly with AR-based control systems.
+As outlined in Section \ref{sec:objectives}, the system needs to meet specific requirements to ensure it performs as intended. These requirements were established through research, discussions with supervisor, and analysis of the intended user environment.
 
-\begin{itemize}
-    \item \textbf{R1.} The robot must operate in different control zones, defined by AR markers, and adjust its behavior accordingly (e.g., slowing down, stopping, or performing a task).
-    \item \textbf{R2.} The system must integrate dynamic instructions based on ArUco marker detection, allowing for real-time task updates.
-    \item \textbf{R3.} The AR interface must provide real-time visual feedback for the human operator to improve task monitoring and control.
-    \item \textbf{R4.} The robot must include object avoidance functionality, ensuring it maintains a safe distance from recognized obstacles (e.g., warning cones) based on AR markers.
-    \item \textbf{R5.} The system should detect and respond to wheel slip events caused by changes in surface traction, providing stability during operation.
-\end{itemize}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|p{0.9cm}|p{6cm}|p{0.9cm}|p{6cm}|}
+		\hline
+		\textbf{Req. ID} & \textbf{Requirement Description} & \textbf{Spec. ID} & \textbf{Specification Description} \\ \hline
+		\textbf{R1} & The robot must operate in different control zones, defined by AR markers, and adjust its behavior accordingly (e.g., slowing down, stopping, or performing a task). & \textbf{F1} & Implementation of AR-based control zones that dynamically adjust robot speed, direction, or initiate tasks based on detected markers. \\ \hline
+		\textbf{R2} & The system must integrate dynamic instructions based on ArUco marker detection, allowing for real-time task updates. & \textbf{F2} & Real-time processing of ArUco markers to update task instructions and provide context-specific navigation and task execution. \\ \hline
+		\textbf{R3} & The AR interface must provide real-time visual feedback for the human operator to improve task monitoring and control. & \textbf{F3} & AR-based visual feedback will provide the human operator with real-time monitoring of the robot’s actions and environmental interactions. \\ \hline
+		\textbf{R4} & The robot must include object avoidance functionality, ensuring it maintains a safe distance from recognized obstacles (e.g., warning cones) based on AR markers. & \textbf{F4} & Integration of object avoidance behavior, ensuring the robot maintains a safe distance from obstacles based on AR marker detection. \\ \hline
+		\textbf{R5} & The system should detect and respond to wheel slip events caused by changes in surface traction, providing stability during operation. & \textbf{F5} & Implementation of wheel slip detection functionality that monitors the robot's power draw to identify surface traction changes. \\ \hline
+	\end{tabular}
+	\caption{Requirements and Functionalities for the Robot Control System}
+	\label{tab:requirements_functionalities}
+\end{table}
 
-To meet these requirements, the system will implement the following functionalities:
 
-\begin{itemize}
-    \item \textbf{F1.} Implementation of AR-based control zones that dynamically adjust robot speed, direction, or initiate tasks based on detected markers (R1).
-    \item \textbf{F2.} Real-time processing of ArUco markers to update task instructions and provide context-specific navigation and task execution (R2).
-    \item \textbf{F3.} AR-based visual feedback will provide the human operator with real-time monitoring of the robot’s actions and environmental interactions (R4).
-    \item \textbf{F4.} Integration of object avoidance behavior, ensuring the robot maintains a safe distance from obstacles based on AR marker detection (R5).
-    \item \textbf{F5.} Implementation of wheel slip detection functionality that monitors the robot's power draw to identify surface traction changes (R6).
-\end{itemize}
+\section{Acceptable Test Procedures}
 
 Testing will be performed to ensure that the system meets the outlined requirements and functionalities. The table below shows the breakdown of the sub-tests to be performed, with each test linked to the specific functions and requirements it checks.
 
@@ -26,9 +26,9 @@ Testing will be performed to ensure that the system meets the outlined requireme
 	\centering
 	\caption{Enhanced Breakdown of sub-tests to be performed in the acceptance testing.}
 	\label{tab:testing}
-	\begin{tabular}{|p{1cm}|p{3.6cm}|p{4.9cm}|p{2cm}|p{2.5cm}|}
+	\begin{tabular}{|p{0.8cm}|p{3.6cm}|p{7.5cm}|p{0.9cm}|p{0.9cm}|}
 		\hline
-		\textbf{Test} & \textbf{Description} & \textbf{Expected Outcome} & \textbf{Functions Checked} & \textbf{Requirements Tested} \\ \hline
+		\textbf{Test} & \textbf{Description} & \textbf{Expected Outcome} & \textbf{Spec. ID} & \textbf{Req. ID} \\ \hline
 		T1 & Test the robot’s behavior in AR-based control zones & The robot adjusts speed or direction based on AR markers within defined zones (e.g., slow zone, stop zone). & F1 & R1 \\ \hline
 		T2 & Test real-time ArUco marker detection for dynamic instructions & Robot recognizes ArUco markers in real-time and triggers corresponding task instructions (e.g., task initiation or environmental change response). & F2 & R2 \\ \hline
 		T3 & Test AR-based visual feedback for real-time monitoring & The user receives accurate and real-time AR feedback on the robot’s position, detected markers, and current task. & F3 & R3 \\ \hline

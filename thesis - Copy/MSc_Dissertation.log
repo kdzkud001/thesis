@@ -1,0 +1,1929 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  19 OCT 2024 12:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./MSc_Dissertation.tex
+(MSc_Dissertation.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/etex-pkg\etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xy.sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xy.tex
+Bootstrap'ing: catcodes, docmode,
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyrecat.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen142
+\Y@c=\dimen143
+\U@c=\dimen144
+\D@c=\dimen145
+\L@c=\dimen146
+\R@c=\dimen147
+\Edge@c=\toks17
+\X@p=\dimen148
+\Y@p=\dimen149
+\U@p=\dimen150
+\D@p=\dimen151
+\L@p=\dimen152
+\R@p=\dimen153
+\Edge@p=\toks18
+\X@origin=\dimen154
+\Y@origin=\dimen155
+\X@xbase=\dimen156
+\Y@xbase=\dimen157
+\X@ybase=\dimen158
+\Y@ybase=\dimen159
+\X@min=\dimen160
+\Y@min=\dimen161
+\X@max=\dimen162
+\Y@max=\dimen163
+\lastobjectbox@=\box52
+\zerodotbox@=\box53
+\almostz@=\dimen164
+ direction,
+\d@X=\dimen165
+\d@Y=\dimen166
+\K@=\count269
+\KK@=\count270
+\Direction=\count271
+\K@dXdY=\dimen167
+\K@dYdX=\dimen168
+\xyread@=\read2
+\xywrite@=\write3
+\csp@=\count272
+\quotPTK@=\dimen169
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks19
+\connectobjectbox@@=\box54
+ objects,
+\styletoks@=\toks20
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyall.tex
+ Xy-pic option: All features v.3.8
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count273
+\crvpts@=\toks21
+\splinebox@=\box55
+\splineval@=\dimen170
+\splinedepth@=\dimen171
+\splinetol@=\dimen172
+\splinelength@=\dimen173
+ circles,
+\L@=\dimen174
+ loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xytips.tex
+ Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyline.tex
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen175
+ loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count274
+\Col=\count275
+\queue@=\toks22
+\queue@@=\toks23
+\qcount@=\count276
+\qcount@@=\count277
+\matrixsize@=\count278
+ loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xypdf-co.tex
+loaded) Xy-pic pdf driver: `curve' extension support
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xypdf-cu.tex
+loaded) Xy-pic pdf driver: `frame' extension support
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xypdf-fr.tex
+loaded) Xy-pic pdf driver: `line' extension support
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xypdf-li.tex
+loaded) Xy-pic pdf driver: `rotate' extension support
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xypdf-ro.tex
+loaded) loaded))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\theorem.sty
+Package: theorem 2023/07/05 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks25
+\theorem@bodyfont=\toks26
+\theorempreskipamount=\skip51
+\theorempostskipamount=\skip52
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\thp.sty
+File: thp.sty 2023/07/05 v2.2c Theorem extension package (FMi)
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks27
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read3
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box56
+\extrarowheight=\dimen177
+\NC@list=\toks30
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box57
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+\everycr=\toks31
+\minrowclearance=\skip55
+\rownum=\count279
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/anysize\anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
+
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+\@Leftmargin=\dimen178
+\@Rightmargin=\dimen179
+\@Topmargin=\dimen180
+\@Bottommargin=\dimen181
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks32
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen182
+\Gin@req@width=\dimen183
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
+\Gm@bindingoffset=\dimen184
+\Gm@wd@mp=\dimen185
+\Gm@odd@mp=\dimen186
+\Gm@even@mp=\dimen187
+\Gm@layoutwidth=\dimen188
+\Gm@layoutheight=\dimen189
+\Gm@layouthoffset=\dimen190
+\Gm@layoutvoffset=\dimen191
+\Gm@dimlist=\toks33
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen192
+\ttl@minus=\dimen193
+\ttl@toksa=\toks34
+\titlewidth=\dimen194
+\titlewidthlast=\dimen195
+\titlewidthfirst=\dimen196
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/fancybox\fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box59
+\shadowsize=\dimen197
+\@Sbox=\box60
+\do@VerbBox=\toks35
+\the@fancyput=\toks36
+\this@fancyput=\toks37
+\EndVerbatimTokens=\toks38
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read4
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip67
+\fb@frw=\dimen198
+\fb@frh=\dimen199
+\FrameRule=\dimen256
+\FrameSep=\dimen257
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen258
+\TX@old@table=\dimen259
+\TX@old@col=\dimen260
+\TX@target=\dimen261
+\TX@delta=\dimen262
+\TX@cols=\count283
+\TX@ftn=\toks39
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count284
+\rotFPtop=\skip68
+\rotFPbot=\skip69
+\rot@float@box=\box61
+\rot@mess@toks=\toks40
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip70
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen263
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen264
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count285
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count286
+\leftroot@=\count287
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count288
+\DOTSCASE@=\count289
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen265
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count290
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count291
+\dotsspace@=\muskip17
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
+\tag@help=\toks42
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
+\andhelp@=\toks43
+\eqnshift@=\dimen266
+\alignsep@=\dimen267
+\tagshift@=\dimen268
+\tagwidth@=\dimen269
+\totwidth@=\dimen270
+\lineht@=\dimen271
+\@envbody=\toks44
+\multlinegap=\skip71
+\multlinetaggap=\skip72
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 758.
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count297
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count298
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen272
+\Hy@linkcounter=\count299
+\Hy@pagecounter=\count300
+ (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count301
+ (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count302
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen273
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count303
+\Field@Width=\dimen274
+\Fld@charsize=\dimen275
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count304
+\c@Item=\count305
+\c@Hfootnote=\count306
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count307
+\c@bookmark@seq@number=\count308
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip73
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen276
+\captionmargin=\dimen277
+\caption@leftmargin=\dimen278
+\caption@rightmargin=\dimen279
+\caption@width=\dimen280
+\caption@indent=\dimen281
+\caption@parindent=\dimen282
+\caption@hangindent=\dimen283
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count309
+\c@continuedfloat=\count310
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count311
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count312
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count313
+\lst@gtempboxa=\box64
+\lst@token=\toks46
+\lst@length=\count314
+\lst@currlwidth=\dimen284
+\lst@column=\count315
+\lst@pos=\count316
+\lst@lostspace=\dimen285
+\lst@width=\dimen286
+\lst@newlines=\count317
+\lst@lineno=\count318
+\lst@maxwidth=\dimen287
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count319
+\lst@skipnumbers=\count320
+\lst@framebox=\box65
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
+))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
+)
+\XKV@depth=\count321
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+\scr@dte@tocline@numberwidth=\skip74
+\scr@dte@tocline@numbox=\box66
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen288
+\nom@tempdim=\dimen289
+\nomitemsep=\skip75
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks49
+\pgfutil@tempdima=\dimen290
+\pgfutil@tempdimb=\dimen291
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box67
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks50
+\pgfkeys@temptoks=\toks51
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks52
+))
+\pgf@x=\dimen292
+\pgf@y=\dimen293
+\pgf@xa=\dimen294
+\pgf@ya=\dimen295
+\pgf@xb=\dimen296
+\pgf@yb=\dimen297
+\pgf@xc=\dimen298
+\pgf@yc=\dimen299
+\pgf@xd=\dimen300
+\pgf@yd=\dimen301
+\w@pgf@writea=\write5
+\r@pgf@reada=\read5
+\c@pgf@counta=\count322
+\c@pgf@countb=\count323
+\c@pgf@countc=\count324
+\c@pgf@countd=\count325
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+\pgf@sys@id@count=\count326
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count327
+\pgfsyssoftpath@bigbuffer@items=\count328
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen302
+\pgfmath@count=\count329
+\pgfmath@box=\box68
+\pgfmath@toks=\toks56
+\pgfmath@stack@operand=\toks57
+\pgfmath@stack@operation=\toks58
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count330
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen303
+\pgf@picmaxx=\dimen304
+\pgf@picminy=\dimen305
+\pgf@picmaxy=\dimen306
+\pgf@pathminx=\dimen307
+\pgf@pathmaxx=\dimen308
+\pgf@pathminy=\dimen309
+\pgf@pathmaxy=\dimen310
+\pgf@xx=\dimen311
+\pgf@xy=\dimen312
+\pgf@yx=\dimen313
+\pgf@yy=\dimen314
+\pgf@zx=\dimen315
+\pgf@zy=\dimen316
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen317
+\pgf@path@lasty=\dimen318
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen319
+\pgf@shorten@start@additional=\dimen320
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count331
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen321
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen322
+\pgf@pt@y=\dimen323
+\pgf@pt@temp=\dimen324
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen325
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen326
+\pgf@sys@shading@range@num=\count332
+\pgf@shadingcount=\count333
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box72
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box73
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen327
+\pgf@nodesepend=\dimen328
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen329
+\pgffor@skip=\dimen330
+\pgffor@stack=\toks59
+\pgffor@toks=\toks60
+))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen331
+)
+\tikz@lastx=\dimen332
+\tikz@lasty=\dimen333
+\tikz@lastxsaved=\dimen334
+\tikz@lastysaved=\dimen335
+\tikz@lastmovetox=\dimen336
+\tikz@lastmovetoy=\dimen337
+\tikzleveldistance=\dimen338
+\tikzsiblingdistance=\dimen339
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
+)
+\tikz@expandcount=\count342
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
+\t@pgfplots@toka=\toks61
+\t@pgfplots@tokb=\toks62
+\t@pgfplots@tokc=\toks63
+\pgfplots@tmpa=\dimen340
+\c@pgfplots@coordindex=\count343
+\c@pgfplots@scanlineindex=\count344
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks64
+\t@pgf@tokb=\toks65
+\t@pgf@tokc=\toks66
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count345
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count346
+\t@pgfplotstable@a=\toks67
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count347
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen341
+\pgfdecoratedremainingdistance=\dimen342
+\pgfdecoratedinputsegmentcompleteddistance=\dimen343
+\pgfdecoratedinputsegmentremainingdistance=\dimen344
+\pgf@decorate@distancetomove=\dimen345
+\pgf@decorate@repeatstate=\count348
+\pgfdecorationsegmentamplitude=\dimen346
+\pgfdecorationsegmentlength=\dimen347
+)
+\tikz@lib@dec@box=\box78
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count349
+\pgfplots@xmin@reg=\dimen348
+\pgfplots@xmax@reg=\dimen349
+\pgfplots@ymin@reg=\dimen350
+\pgfplots@ymax@reg=\dimen351
+\pgfplots@zmin@reg=\dimen352
+\pgfplots@zmax@reg=\dimen353
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count350
+\calc@Bcount=\count351
+\calc@Adimen=\dimen354
+\calc@Bdimen=\dimen355
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count352
+\calc@Cskip=\skip78
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen356
+\ESO@tempdimb=\dimen357
+)
+\AM@pagewidth=\dimen358
+\AM@pageheight=\dimen359
+\AM@fboxrule=\dimen360
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count353
+\AM@pagebox=\box79
+\AM@global@opts=\toks68
+\AM@pagecnt=\count354
+\AM@toc@title=\toks69
+\AM@lof@heading=\toks70
+\c@AM@survey=\count355
+\AM@templatesizebox=\box80
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen361
+\lightrulewidth=\dimen362
+\cmidrulewidth=\dimen363
+\belowrulesep=\dimen364
+\belowbottomsep=\dimen365
+\aboverulesep=\dimen366
+\abovetopsep=\dimen367
+\cmidrulesep=\dimen368
+\cmidrulekern=\dimen369
+\defaultaddspace=\dimen370
+\@cmidla=\count356
+\@cmidlb=\count357
+\@aboverulesep=\dimen371
+\@belowrulesep=\dimen372
+\@thisruleclass=\count358
+\@lastruleclass=\count359
+\@thisrulewidth=\dimen373
+) (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-08-30 L3 programming layer (loader) 
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count360
+\l__pdf_internal_box=\box81
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count361
+\float@exts=\toks71
+\float@box=\box82
+\@float@everytoks=\toks72
+\@floatcapt=\box83
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip79
+\multirow@cntb=\count362
+\multirow@dima=\skip80
+\bigstrutjot=\dimen374
+)
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip81
+\bibsep=\skip82
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count363
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+20.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(MSc_Dissertation.aux)
+\openout1 = `MSc_Dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package xypdf Info: Line width: 0.47998pt on input line 120.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count364
+\scratchdimen=\dimen375
+\scratchbox=\box84
+\nofMPsegments=\count365
+\nofMParguments=\count366
+\everyMPshowfont=\toks73
+\MPscratchCnt=\count367
+\MPscratchDim=\dimen376
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
+\everyMPtoPDFconversion=\toks74
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(86.72377pt, 686.05309pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=686.05309pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-22.54622pt
+* \headheight=14.49998pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 120.
+(MSc_Dissertation.out) (MSc_Dissertation.out)
+\@outlinefile=\write6
+\openout6 = `MSc_Dissertation.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count370
+Package tocbasic Info: omitting babel extension for `lol'
+(tocbasic)             because of missing \bbl@set@language on input line 120.
+
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+40.
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+<uctlogomain.png, id=366, 1304.875pt x 1331.97626pt>
+File: uctlogomain.png Graphic file (type png)
+<use uctlogomain.png>
+Package pdftex.def Info: uctlogomain.png  used on input line 165.
+(pdftex.def)             Requested size: 113.81102pt x 116.17366pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+68.
+
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+[1
+
+{C:/Users/kkadz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/kkad
+z/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./uctlogomain.png
+>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+79.
+ (C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(abstract.tex)
+
+[0
+
+] (acknowledgements.tex)
+
+[1
+
+
+] (MSc_Dissertation.toc
+
+[2
+
+
+]
+
+[3]
+
+[4])
+\tf@toc=\write7
+\openout7 = `MSc_Dissertation.toc'.
+
+
+
+[5] (MSc_Dissertation.lof)
+\tf@lof=\write8
+\openout8 = `MSc_Dissertation.lof'.
+
+
+
+[6
+
+
+] (MSc_Dissertation.lot)
+\tf@lot=\write9
+\openout9 = `MSc_Dissertation.lot'.
+
+
+
+[7
+
+
+] (abbreviations.tex)
+
+[8
+
+
+]
+
+[9
+
+
+] (ch1/ch1.tex
+Chapter 1.
+
+Overfull \hbox (0.45187pt too wide) in paragraph at lines 3--4
+\OT1/ptm/m/n/12 human-machine in-ter-ac-tion ex-pe-ri-ence. This fu-sion of tec
+h-nolo-gies promises to push the bound-
+ []
+
+<ch1/figs/Vinci_car.jpg, id=563, 1610.015pt x 1074.0125pt>
+File: ch1/figs/Vinci_car.jpg Graphic file (type jpg)
+<use ch1/figs/Vinci_car.jpg>
+Package pdftex.def Info: ch1/figs/Vinci_car.jpg  used on input line 11.
+(pdftex.def)             Requested size: 159.33821pt x 106.27676pt.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 
+      [1
+
+
+ <./ch1/figs/Vinci_car.jpg>]
+
+[2]
+
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[4]) (ch2/ch2.tex
+
+[5]
+Chapter 2.
+<ch2/figs/lit_overview.png, id=603, 1431.09656pt x 309.40594pt>
+File: ch2/figs/lit_overview.png Graphic file (type png)
+<use ch2/figs/lit_overview.png>
+Package pdftex.def Info: ch2/figs/lit_overview.png  used on input line 9.
+(pdftex.def)             Requested size: 455.24411pt x 98.4265pt.
+
+Overfull \hbox (25.88567pt too wide) in paragraph at lines 18--18
+|[]\OT1/ptm/b/sc/17.28 Introduction to Human-Robot In-ter-ac-tion (HRI)
+ []
+
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+
+
+[6
+
+ <./ch2/figs/lit_overview.png>]
+<ch2/figs/overlay.png, id=612, 585.68813pt x 450.9347pt>
+File: ch2/figs/overlay.png Graphic file (type png)
+<use ch2/figs/overlay.png>
+Package pdftex.def Info: ch2/figs/overlay.png  used on input line 26.
+(pdftex.def)             Requested size: 386.96027pt x 297.94121pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[7 <./ch2/figs/overlay.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8]
+Overfull \hbox (1.11078pt too wide) in paragraph at lines 53--54
+\OT1/ptm/m/n/12 com-mu-ni-cate their in-ten-tions and in-ter-act with their en-
+vi-ron-ment. AR not only en-hances human-
+ []
+
+<ch2/figs/robot_nav2.png, id=640, 441.14813pt x 421.575pt>
+File: ch2/figs/robot_nav2.png Graphic file (type png)
+<use ch2/figs/robot_nav2.png>
+Package pdftex.def Info: ch2/figs/robot_nav2.png  used on input line 65.
+(pdftex.def)             Requested size: 182.09486pt x 174.01761pt.
+<ch2/figs/robot_nav_1.png, id=643, 243.91125pt x 282.30469pt>
+File: ch2/figs/robot_nav_1.png Graphic file (type png)
+<use ch2/figs/robot_nav_1.png>
+Package pdftex.def Info: ch2/figs/robot_nav_1.png  used on input line 72.
+(pdftex.def)             Requested size: 145.68144pt x 168.61304pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[10 <./ch2/figs/robot_nav2.png> <./ch2/figs/robot_nav_1.png>]
+<ch1/figs/ARToolkit.jpg, id=664, 480.79625pt x 481.8pt>
+File: ch1/figs/ARToolkit.jpg Graphic file (type jpg)
+<use ch1/figs/ARToolkit.jpg>
+Package pdftex.def Info: ch1/figs/ARToolkit.jpg  used on input line 114.
+(pdftex.def)             Requested size: 113.81102pt x 114.04639pt.
+<ch1/figs/AprilTag.png, id=665, 274.02374pt x 272.51813pt>
+File: ch1/figs/AprilTag.png Graphic file (type png)
+<use ch1/figs/AprilTag.png>
+Package pdftex.def Info: ch1/figs/AprilTag.png  used on input line 121.
+(pdftex.def)             Requested size: 113.81102pt x 113.18855pt.
+<ch1/figs/ArUco.png, id=666, 282.30469pt x 282.30469pt>
+File: ch1/figs/ArUco.png Graphic file (type png)
+<use ch1/figs/ArUco.png>
+Package pdftex.def Info: ch1/figs/ArUco.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81102pt x 113.81154pt.
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|\OT1/ptm/b/n/12 Detection
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|\OT1/ptm/b/n/12 Computational
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[12 <./ch1/figs/ARToolkit.jpg (PNG copy)> <./ch1/figs/AprilTag.png> <./ch1/figs
+/ArUco.png>]
+
+[13]
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[16]
+<ch2/figs/ultrasonic_sensor.png, id=727, 752.8125pt x 454.69875pt>
+File: ch2/figs/ultrasonic_sensor.png Graphic file (type png)
+<use ch2/figs/ultrasonic_sensor.png>
+Package pdftex.def Info: ch2/figs/ultrasonic_sensor.png  used on input line 242
+.
+(pdftex.def)             Requested size: 241.27881pt x 145.72859pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[]|\OT1/ptm/b/n/12 Operating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\OT1/ptm/b/n/12 Volt-age
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[17]
+<ch2/figs/lidar_graphic.png, id=737, 1352.05125pt x 703.12688pt>
+File: ch2/figs/lidar_graphic.png Graphic file (type png)
+<use ch2/figs/lidar_graphic.png>
+Package pdftex.def Info: ch2/figs/lidar_graphic.png  used on input line 274.
+(pdftex.def)             Requested size: 227.62206pt x 118.37126pt.
+
+
+[18 <./ch2/figs/ultrasonic_sensor.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[19 <./ch2/figs/lidar_graphic.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[20]
+<ch2/figs/Comparison.png, id=765, 539.616pt x 371.58826pt>
+File: ch2/figs/Comparison.png Graphic file (type png)
+<use ch2/figs/Comparison.png>
+Package pdftex.def Info: ch2/figs/Comparison.png  used on input line 334.
+(pdftex.def)             Requested size: 336.88313pt x 231.98694pt.
+) (RaF/RaF.tex
+
+[21 <./ch2/figs/Comparison.png>]
+
+[22]
+Chapter 3.
+
+
+[23
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\OT1/ptm/b/n/12 Functions
+ []
+
+
+Overfull \hbox (0.63928pt too wide) in paragraph at lines 31--31
+[]|\OT1/ptm/b/n/12 Requirements
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 32--32
+\OT1/ptm/m/n/12 hav-ior in AR-based
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 32--32
+\OT1/ptm/m/n/12 within de-fined zones (e.g.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/ptm/m/n/12 Robot rec-og-nizes ArUco
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 33--33
+\OT1/ptm/m/n/12 mark-ers in real-time and
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 33--33
+\OT1/ptm/m/n/12 trig-gers cor-re-spond-ing task
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/ptm/m/n/12 feed-back for real-
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 34--34
+[]|\OT1/ptm/m/n/12 The user re-ceives ac-cu-rate
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 sys-tem us-ing vi-sual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/ptm/m/n/12 The robot suc-cess-fully
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 avoids pre-de-fined ob-sta-cles
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 marked by ArUco codes
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 35--35
+\OT1/ptm/m/n/12 within 20 cm, halt-ing or
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 36--36
+[]|\OT1/ptm/m/n/12 Test wheel slip de-
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 36--36
+[]|\OT1/ptm/m/n/12 The robot de-tects slip on
+ []
+
+
+Overfull \hbox (5.49438pt too wide) in paragraph at lines 29--38
+ [][] 
+ []
+
+) (ch3/ch3.tex
+
+[24]
+Chapter 4.
+<ch3/figs/diagram.png, id=786, 832.10875pt x 497.86pt>
+File: ch3/figs/diagram.png Graphic file (type png)
+<use ch3/figs/diagram.png>
+Package pdftex.def Info: ch3/figs/diagram.png  used on input line 9.
+(pdftex.def)             Requested size: 364.19667pt x 217.90437pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[25
+
+ <./ch3/figs/diagram.png (PNG copy)>]
+
+[26]
+
+[27]) (ch4/ch4.tex
+
+[28]
+Chapter 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[29
+
+]
+<ch4/figs/robot_car.png, id=820, 922.19531pt x 423.83344pt>
+File: ch4/figs/robot_car.png Graphic file (type png)
+<use ch4/figs/robot_car.png>
+Package pdftex.def Info: ch4/figs/robot_car.png  used on input line 17.
+(pdftex.def)             Requested size: 455.24411pt x 209.22585pt.
+
+
+[30 <./ch4/figs/robot_car.png>]
+Overfull \hbox (22.10999pt too wide) in paragraph at lines 42--61
+ [][] 
+ []
+
+
+
+[31]
+
+[32]
+<ch4/figs/H-Bridge-Interface.png, id=840, 602.25pt x 344.78813pt>
+File: ch4/figs/H-Bridge-Interface.png Graphic file (type png)
+<use ch4/figs/H-Bridge-Interface.png>
+Package pdftex.def Info: ch4/figs/H-Bridge-Interface.png  used on input line 10
+4.
+(pdftex.def)             Requested size: 380.13188pt x 217.63329pt.
+
+
+[33 <./ch4/figs/H-Bridge-Interface.png>]
+
+[34]
+<ch4/figs/hi.png, id=850, 1382.91656pt x 685.8122pt>
+File: ch4/figs/hi.png Graphic file (type png)
+<use ch4/figs/hi.png>
+Package pdftex.def Info: ch4/figs/hi.png  used on input line 177.
+(pdftex.def)             Requested size: 364.19667pt x 180.60918pt.
+
+
+[35]
+
+[36 <./ch4/figs/hi.png>]
+Overfull \hbox (12.94229pt too wide) in paragraph at lines 216--217
+[]\OT1/ptm/b/n/12 Flask-SocketIO\OT1/ptm/m/n/12 : Al-lowed for real-time com-mu
+-ni-ca-tion be-tween the Pi and the web browser,
+ []
+
+
+
+[37]
+<ch4/figs/calibration.png, id=864, 845.40843pt x 416.30531pt>
+File: ch4/figs/calibration.png Graphic file (type png)
+<use ch4/figs/calibration.png>
+Package pdftex.def Info: ch4/figs/calibration.png  used on input line 236.
+(pdftex.def)             Requested size: 409.71692pt x 201.75537pt.
+
+
+[38 <./ch4/figs/calibration.png>]
+
+[39]
+
+[40]
+
+[41]
+
+[42]) (Testing/Testing.tex
+
+[43]
+Chapter 6.
+<Testing/figs/flow.png, id=894, 505.89pt x 570.13pt>
+File: Testing/figs/flow.png Graphic file (type png)
+<use Testing/figs/flow.png>
+Package pdftex.def Info: Testing/figs/flow.png  used on input line 7.
+(pdftex.def)             Requested size: 318.66948pt x 359.1403pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[44
+
+ <./Testing/figs/flow.png>]
+
+[45]
+
+[46]
+
+[47]
+
+[48]
+(C:\Users\kkadz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+
+[49]
+
+[50]) (ch5/ch5.tex
+
+[51]
+Chapter 7.
+) (ch6/ch6.tex
+
+[52
+
+]
+Chapter 8.
+<ch6/figs/picture.jpg, id=973, 552.0625pt x 310.15875pt>
+File: ch6/figs/picture.jpg Graphic file (type jpg)
+<use ch6/figs/picture.jpg>
+Package pdftex.def Info: ch6/figs/picture.jpg  used on input line 9.
+(pdftex.def)             Requested size: 455.24411pt x 255.77527pt.
+) (MSc_Dissertation.bbl
+
+[53
+
+ <./ch6/figs/picture.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+[]\OT1/ptm/m/n/12 Random Nerd Tu-to-ri-als.  Com-plete guide for ul-tra-sonic s
+en-sor hc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+\OT1/ptm/m/n/12 sr04 with ar-duino.  []$\OT1/pcr/m/n/12 https : / / randomnerdt
+utorials . com /
+ []
+
+
+
+[54
+
+]
+
+[55]
+Underfull \hbox (badness 2547) in paragraph at lines 163--169
+[]\OT1/ptm/m/n/12 N. Maupin and N. Maupin.  How do ul-tra-sonic sen-sors work? 
+ []$\OT1/pcr/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
+\OT1/pcr/m/n/12 / / howdowork . com / technology / computers-[]electronics /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
+\OT1/pcr/m/n/12 ultrasonic-[]sensors-[]working / # : [] : text = How % 20Do % 2
+0Ultrasonic %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
+\OT1/pcr/m/n/12 20Sensors % 20Work % 20Ultrasonic % 20sensors % 20work ,[] they
+ % 20are %
+ []
+
+) (Appendix/appendixA.tex
+
+[56]
+Appendix A.
+)
+
+[57
+
+] (MSc_Dissertation.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+ ***********
+Package rerunfilecheck Info: File `MSc_Dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 9CA884433CE3A2DE4A3714F62914AA5B;17685.
+ ) 
+Here is how much of TeX's memory you used:
+ 41364 strings out of 473898
+ 897352 string characters out of 5726479
+ 1700016 words of memory out of 5000000
+ 63154 multiletter control sequences out of 15000+600000
+ 598457 words of font info for 113 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 110i,12n,107p,3298b,1432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/courier/ucrr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/helvetic/uhvb8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmb8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmbi8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmr8a.pfb><C:/Users/kkadz/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on MSc_Dissertation.pdf (68 pages, 6905766 bytes).
+PDF statistics:
+ 1102 PDF objects out of 1200 (max. 8388607)
+ 266 named destinations out of 1000 (max. 500000)
+ 828 words of extra memory for PDF output out of 10000 (max. 10000000)
+

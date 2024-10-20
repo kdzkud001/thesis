@@ -222,4 +222,16 @@ R.~Selvarasu M.~Vanitha, M.~Selvalakshmi.
 \newblock In {\em 2016 Second International Conference on Science Technology
   Engineering and Management (ICONSTEM)}, pages 462--463. IEEE, 2016.
 
+\bibitem{redmon2015}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock 06 2015.
+
+\bibitem{patru2023empirical}
+George-Cristian Patru, Alina-Irina Pirvan, Daniel Rosner, and
+  Razvan-Victor Rughinis.
+\newblock Fiducial marker systems overview and empirical analysis of aruco,
+  apriltag and cctag.
+\newblock {\em U.P.B. Sci. Bull., Series C}, 85(2):49--62, 2023.
+
 \end{thebibliography}

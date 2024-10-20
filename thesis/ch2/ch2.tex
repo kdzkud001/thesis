@@ -23,8 +23,8 @@ According to \cite{Hentout2019}, HRI evolved from isolated robot systems in manu
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{ch2/figs/overlay.png}
-    \caption{Screen Display of work environment with AR additions {\cite{ResearchGateAR2024}}}
+    \includegraphics[width=0.5\textwidth]{ch2/figs/overlay.png}
+    \caption{Screen Display of work environment with AR additions \cite{ResearchGateAR2024}}
     \label{fig:AR_work_overlay}
 \end{figure}
 
@@ -232,7 +232,7 @@ In a real-world application, however, it would be critical to implement robust s
 
 \section{Sensor Technologies}
 
-{insert introductory paragraph here}
+Sensors serve as the robot's eyes and ears, providing crucial data that allows for effective navigation, obstacle avoidance, and task execution. This section will explore various sensor technologies commonly employed in mobile robotics, highlighting their functionalities, applications, and significance in enabling autonomous operations along with object detection.
 
 \subsection{Ultrasonic Sensors} 
 Ultrasonic sensors are a common choice in mobile robotics due to their effectiveness in obstacle avoidance and distance measurement. These sensors emit ultrasonic waves and measure the time it takes for the waves to reflect back from an object, allowing the robot to calculate the distance from obstacles \cite{maupin2023ultrasonic}. This capability provides spatial awareness that is critical for safe navigation. Below is a basic diagram showcasing the operation of an HC-SR04 Infrared Sensor.
@@ -329,7 +329,7 @@ TensorFlow Lite models are specifically optimized for mobile and embedded device
 
 YOLO (You Only Look Once) models are highly regarded for their ability to provide accurate real-time object detection. YOLOv5, especially in its smaller variants such as YOLOv5s and YOLOv5n, has been optimized for faster processing while maintaining high accuracy levels \cite{yolov5github}. YOLOv5s provides superior accuracy but may struggle with computational limitations on devices like the Raspberry Pi, making it less ideal for applications where real-time performance is crucial without hardware acceleration. In contrast, YOLOv5n (nano), being a lighter version of the model, offers a good balance of speed and accuracy, which is crucial for resource-limited platforms like the Raspberry Pi \cite{MuhammadYolo}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.74\linewidth]{ch2/figs/Comparison.png}
 	\caption{Comparison of Object Detection Models on Raspberry Pi}
@@ -341,6 +341,6 @@ Given the balance between speed and accuracy required for real-time obstacle det
 
 \section{Conclusion}
 
-This literature review has explored the integration of Augmented Reality (AR) with mobile robotics, focusing on Human-Robot Interaction (HRI). Key areas such as fiducial marker systems like ArUco markers, sensor technologies, and web-based control interfaces were examined to assess their role in improving real-time visualization and user interaction with robots.
+This literature review has explored the integration of Augmented Reality (AR) with mobile robotics, focusing on Human-Robot Interaction (HRI). Key areas such as fiducial marker systems like ArUco markers, sensor technologies, web-based control interfaces and object detection algorithms were examined to assess their role in improving real-time visualization and user interaction with robots.
 
-AR has emerged as a crucial tool in enhancing HRI, offering real-time feedback, improved situational awareness, and better task performance. Additionally, sensors such as ultrasonic and LiDAR, combined with AR, hold promise for optimizing navigation and obstacle avoidance in mobile robots. While AR shows significant potential for advancing HRI, challenges such as real-time processing limitations and the need for secure web-based interfaces remain. These insights will guide the development of my AR framework for the 4WD robotic car, focusing on real-time visualization, intuitive control, and efficient sensor integration.
+While AR shows significant potential for advancing HRI, challenges such as real-time processing limitations and the need for secure web-based interfaces remain. These insights will guide the development of my AR framework for the 4WD robotic car, focusing on real-time visualization, intuitive control, and efficient sensor integration.

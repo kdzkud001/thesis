@@ -1,0 +1,275 @@
+% Latex MSc thesis template
+%  Adapted from UCT DNA group template
+%  Customized by Mr Lekhobola Tsoeunyane
+%  Reworked and commented for MSc template by Simon Winberg
+% For online documentaion see: http://latex.computersci.org/Reference/Reference 
+
+% NB!!!!  NB!!!
+%  You may need to have this file open and selected when compiling from TexStudio/TexMaker
+%  If you loaded (in TexStudio) the .txss file it should h ave the root file set already
+%  in which case you can compile from whatever file you have selected for the project.
+
+% Specify SA standard structures as per requirements for UCT dissertations
+\documentclass[a4paper, 12pt, onecolumn, twoside]{report}
+
+\usepackage{etex}
+\usepackage[all]{xy}
+\usepackage{amssymb, theorem, enumerate, verbatim, colortbl, anysize, 
+            graphicx, fancyhdr, geometry, times}
+\usepackage{geometry, titlesec, fancybox, framed, hhline, tabularx}
+\usepackage{rotating, pdflscape}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[font=scriptsize]{subcaption}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{courier}
+\usepackage[refpage]{nomencl}
+\usepackage{pgfplots}
+\usepackage{pdfpages}
+\usepackage{booktabs}
+\usepackage{fixltx2e} 
+\usepackage{xparse}
+\usepackage{float}
+\usepackage{multirow}
+
+
+\lstdefinestyle{pythonstyle}{
+	language=Python,
+	basicstyle=\ttfamily\small,
+	breaklines=true,
+	keywordstyle=\color{blue},
+	stringstyle=\color{green!50!black},
+	commentstyle=\color{red!50!black},
+	showstringspaces=false,
+	numbers=left,
+	numberstyle=\footnotesize\color{gray},
+	numbersep=5pt,
+	frame=single,
+	framesep=5pt,
+	rulecolor=\color{black!30},
+	backgroundcolor=\color{gray!10},
+	tabsize=4,
+}
+
+
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+
+
+\usepackage[numbers,sort&compress]{natbib}
+\bibliographystyle{unsrt}
+
+% Adjust margins
+\geometry{a4paper,top=1.2in,bottom=1in,left=2.5cm,right=2.5cm}
+
+% Adjust section formatting
+\titleformat{\section}{\Large\bfseries\scshape}{\thesection}{20pt}{}
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{10pt}{}
+\titlespacing{\subsection}{0pt}{12pt}{6pt}
+
+\titleformat{\subsubsection}{\normalsize\bfseries\itshape}{\thesubsubsection}{10pt}{}
+\titlespacing{\subsubsection}{0pt}{12pt}{6pt}
+
+% Adjust chapter heading
+\titleformat{\chapter}[frame]
+{\normalfont\filright\ttfamily\scshape}
+{\Large \enspace \chaptertitlename \enspace \thechapter \enspace}
+{14pt}
+{\Huge\filcenter\bfseries\scshape\sffamily}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{\clearpage}{}{}
+\makeatother
+
+
+% Adjust paragraph spacing
+\parindent = 0pt
+\parskip = 6mm
+
+% Set line spacing
+\onehalfspacing
+
+% Keep the original page style
+\pagestyle{fancy}
+\setlength{\headheight}{14.49998pt}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter \enspace --- \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhead[LE,RO]{\bfseries --\enspace\thepage\enspace--}
+\fancyhead[LO,RE]{\bfseries\itshape\leftmark}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\pgfplotsset{compat=1.18}
+\begin{document}
+
+
+% Title page
+\begin{titlepage}
+\begin{center}
+\vspace*{-1cm} % Reduce top margin
+
+\hrule
+\vspace*{0.3cm}
+
+{\Large\bfseries\scshape Robot Driver Digital Augmented Reality View}
+
+\vspace*{0.4cm}
+\hrule
+\vspace*{0.5cm}
+
+{\small
+\textsf{Submitted to the Department of Electrical Engineering,\\
+University of Cape Town, in partial fulfilment of the requirements\\
+for the degree of}
+\vspace*{0.3cm}
+
+{\scshape\bfseries Bachelor of Science in Electrical and Computer Engineering}
+\vspace*{0.3cm}
+
+\emph{at the}
+\vspace*{0.3cm}
+
+{\scshape\bfseries University of Cape Town}
+\vspace*{0.3cm}
+
+\emph{by}
+\vspace*{0.3cm}
+
+{\textsf{Kudzaishe Kadzimu}}
+}
+
+\vspace*{0.3cm}
+{\textsf{\bfseries Supervised by:}}
+\vspace*{0.3cm}
+
+{\scshape Prof. Simon Winberg}
+
+\vfill
+\includegraphics[width=4cm]{uctlogomain.png}
+\vspace*{0.3cm}
+
+\copyright\ University of Cape Town \\
+{\textsf \today}
+\end{center}
+\end{titlepage}
+
+% Sorting out the numbering for the initial pages of the document
+\pagenumbering{roman}
+\addtocounter{page}{-1}
+% Creating the abstract section
+% -----------------------------
+\addcontentsline{toc}{chapter}{Abstract} %
+\chapter*{Abstract}
+\input{abstract.tex}
+\clearpage
+
+% Creating the acknowledgements section
+% -------------------------------------
+\addcontentsline{toc}{chapter}{Acknowledgements} %
+\chapter*{Acknowledgements}
+\input{acknowledgements.tex}
+%\input{acknowledgements}
+\clearpage
+% Removing spaces in between the listings of the floats.
+\parskip = 0.05cm
+% Creating the table of contents
+% ------------------------------
+\addcontentsline{toc}{chapter}{Contents} %
+\pagestyle{fancy}
+\tableofcontents \clearpage
+% Creating lists of all floats
+% ----------------------------
+\addcontentsline{toc}{chapter}{List of Figures} %
+\listoffigures \clearpage %
+\addcontentsline{toc}{chapter}{List of Tables} %
+\listoftables \clearpage
+\addcontentsline{toc}{chapter}{List of Abbreviations} %
+\chapter*{List of Abbreviations}
+\input{abbreviations.tex}
+\clearpage
+\addcontentsline{toc}{chapter}{Nomenclature} %
+
+% -------- Nomenclature -------------
+\chapter*{Nomenclature}
+
+Comment: you do not need to have both nomenclature and abbreviations it tends to be redundant.
+
+\begin{itemize}
+
+% Just add terms one at a time, with term in an item block followed by its description
+\item {\bf Analogue to digital Converter (ADC):} an electronic device that converts data from its analogue format to its digital form.
+
+\item {\bf Very High Speed Integrated Circuits Hardware Description Language (VHDL):} a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as FPGA.
+\end{itemize}
+\clearpage
+% Sorting out the numbering for the rest of the document
+\pagenumbering{arabic}
+\parskip = 0.4cm
+
+% ---- Specift the bibliography style to use ----
+% Recommented to use ieee or acm or ieeetr
+\bibliographystyle{acm}
+
+% Creating the rest of the dissertation chapters
+% It is recommended to have your chapters in separate files
+% This template is set up to have each chapter tex file in
+% a separate folder with its figures inside a figs subfolder
+% ----------------------------------------------------------
+
+%@@@@@@@ Chapter 1 - Introduction @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{ch1/ch1.tex}
+
+%@@@@@@@ Chapter 2 - Literature Review @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{ch2/ch2.tex}
+
+%@@@@@@@ Chapter 3 - Requirements and Specifications @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{RaF/RaF.tex}
+
+%@@@@@@@ Chapter 3 - Methodology  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{ch3/ch3.tex}
+
+%@@@@@@@ Chapter 4 - Design @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{ch4/ch4.tex}
+
+%@@@@@@@ Chapter 4 - Testing @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{Testing/Testing.tex}
+
+%@@@@@@ Chapter 5 - Results and Discussion @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{ch5/ch5.tex}
+
+%@@@@@@ Chapter 6 - Conclusions and Further Work @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{ch6/ch6.tex}
+
+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%@@@@@@@@@@@@@@@@@ References @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%=============================
+\bibliography{bibliography}
+
+%=============================
+\appendix
+
+%\newpage
+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%%@@@@@@@@@@@@@@@@@@@@@ APPENDIX @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+\input{Appendix/appendixA.tex}
+
+\end{document}

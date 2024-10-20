@@ -1,0 +1,90 @@
+\contentsline {chapter}{Abstract}{}{Doc-Start}%
+\contentsline {chapter}{Acknowledgements}{i}{chapter*.1}%
+\contentsline {chapter}{Contents}{ii}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{vi}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{vii}{chapter*.4}%
+\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.5}%
+\contentsline {chapter}{Nomenclature}{ix}{chapter*.6}%
+\contentsline {chapter}{\numberline {1} Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Description}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Main Objectives}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Secondary Objectives}{3}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Terms of Reference}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Plan of Development}{5}{section.1.6}%
+\contentsline {chapter}{\numberline {2} Literature Review}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction to Human-Robot Interaction (HRI) and Augmented Reality (AR)}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Virtual Reality in Human-Robot Interaction: A Comparison with Augmented Reality}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Augmented Reality as a Tool in HRI}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Mobile Robotics and AR Integration}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}AR as a Communication Tool in Mobile Robotics}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Multimodal AR Interfaces for Human-Robot Interaction}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Applications of AR in Mobile Robotics}{10}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Challenges and Future Directions}{11}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Fiducial Marker Systems in HRI}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Fiducial Marker Systems Overview}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Choosing the Best Marker System for the Project}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Visual Interaction in AR-Enhanced HRI}{13}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Applications of Visual Interaction}{13}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Visual Feedback and Real-Time Interaction}{14}{subsubsection.2.3.3.2}%
+\contentsline {section}{\numberline {2.4}AR's Role in Improving User Engagement}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Enhancing User Engagement through Real-Time Feedback and Visualization}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Psychological and Practical Benefits}{15}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Web-Based Control Interfaces}{16}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Webserver Framework Options}{16}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Security and User Experience}{17}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Sensor Technologies}{17}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Ultrasonic Sensors}{17}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}LiDAR Sensors}{18}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Object Detection Algorithms}{20}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Conclusion}{21}{section.2.8}%
+\contentsline {chapter}{\numberline {3} Requirements and Specifications}{23}{chapter.3}%
+\contentsline {chapter}{\numberline {4} Methodology}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1} Overview}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2} Subsystems Overview}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1} Camera Module}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2} Raspberry Pi}{26}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3} Motor Driver and Drive System}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4} Web-Based Control Interface}{27}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5} Fiducial Marker Detection}{28}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3} Interaction and Dependencies}{28}{section.4.3}%
+\contentsline {chapter}{\numberline {5} Design ad Implementation}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}System Design}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2} Hardware System Architecture}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Microcontroller Selection}{30}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Camera Module}{31}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motor and Drive System}{32}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Power Supply}{34}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Raspberry Pi Power Supply}{34}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}H-Bridge and Motor Power Supply}{35}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5} Software System Architecture}{35}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Development Environment Setup}{36}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Camera Calibration}{38}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}ArUco Marker Detection}{39}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Web Interface and Server Design}{41}{subsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.4.1}Server Architecture}{41}{subsubsection.5.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.5.4.2}Web Interface Design}{41}{subsubsection.5.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.5.4.3}Design Considerations}{42}{subsubsection.5.5.4.3}%
+\contentsline {subsection}{\numberline {5.5.5}Wheel Interface Design}{42}{subsection.5.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.5.1}Motor Control Using GPIO and PWM}{43}{subsubsection.5.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.5.2}Integration with Web Interface}{43}{subsubsection.5.5.5.2}%
+\contentsline {chapter}{\numberline {6}Modular Testing}{44}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Independent Module Testing}{45}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Web Interface Testing}{45}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Motor Control Testing}{46}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Camera and ArUco Marker Detection Testing}{46}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Subsystem Combinations Testing}{47}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Camera and Web Interface Integration}{47}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Testing Video Streaming Performance}{48}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Performance Optimization and Improvements}{48}{subsubsection.6.2.1.2}%
+\contentsline {subsection}{\numberline {6.2.2}Web Interface and Motor Control Integration}{49}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Web Interface and ArUco Detection Integration}{50}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Integration Phase}{50}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Results and Discussion}{52}{chapter.7}%
+\contentsline {chapter}{\numberline {8} Conclusions and Further Work}{53}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conclusions}{53}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Recommendations For Further Work}{53}{section.8.2}%
+\contentsline {chapter}{\numberline {A}ADC/DAC core}{57}{appendix.A}%
+\contentsline {section}{\numberline {A.1}A useful sub appendix}{57}{section.A.1}%
